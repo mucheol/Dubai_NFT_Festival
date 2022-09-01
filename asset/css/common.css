@@ -2,21 +2,16 @@
 .f-w400 { font-weight: 400;}
 .f-w500 { font-weight: 500;}
 .f-w700 { font-weight: 700;}
-
 /* Flex 박스 */
 .flexBox { display: flex;}
-
 /* 정가운데 정렬 */
 .c_arr { display: flex; justify-content: center; align-items: center;}
-
 /* 양쪽 끝 정렬 */
 .b_arr { display: flex; justify-content: space-between;}
-
 /* Text 정렬 */
 .tal { text-align: left;}
 .tac { text-align: center;}
 .tar { text-align: right;}
-
 /* Background 전체에 맞출때 */
 .fbg { background-position: center; background-repeat: no-repeat; background-size: cover;}
 
@@ -40,8 +35,11 @@ footer .p2 { margin-top: 1.09vw ;}
 
 /* Common */
 .wrap{ width: 100vw; padding: 4.84vw 3.13vw 3.59vw 3.13vw;}
+.scroll { position: absolute; top: 41.09vw ; right: 4.69vw; font-size: 0.94vw ;line-height: 1.35vw ; transform: rotate(90deg);}
+.scroll.off { display: none;}
+.scroll.bottom { display: none !important;}
 
-/* index(main) */
+/* INDEX(MAIN) */
 .mainWrap { padding: 2.4vw 4.69vw 0;}
 .mainWrap .p1 { font-weight: 300; font-size: 3.13vw;line-height: 3.65vw;}
 .mainWrap .p2 { font-weight: 300; font-size: 4.69vw; line-height: 5.21vw;}
@@ -58,3 +56,49 @@ footer .p2 { margin-top: 1.09vw ;}
 .mainWrap .flexBox .dl{ width: 8.33vw; margin-bottom: 0.52vw;}
 .mainWrap #nftTower { position: absolute; top: 7.24vw ; right: 11.72vw ; width: 14.06vw ;}
 
+/* ABOUT */
+#about section {position: relative;min-height: 50.52vw;padding: 0 4.69vw;}
+#about section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height: 1px;background-color: #5A5A5A;}
+#about .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
+#about.wrap {padding: 4.84vw 3.13vw 0 3.13vw;}
+
+#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-x: -78px;}
+#about .section01 .p1 {font-size: 1.46vw ;line-height: 2.14vw ;color: #787878;} 
+#about .section01 .p2 {font-size: 2.08vw ;line-height: 2.34vw ;} 
+#about .section01 .p3 {font-size: 2.60vw ;line-height: 3.39vw ;} 
+#about .section01 .p4 {font-size: 0.94vw ;line-height: 1.35vw ;margin-top: 0.63vw ;} 
+#about .section01 .horLine {display: block;width: 3.65vw ;height: 1px;margin-top: 5.00vw ;margin-bottom: 4.64vw ;background-color: #fff;}
+
+#about .section02 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.38vw;}
+#about .section02 .contents .p1 {font-size: 1.46vw;line-height: 2.14vw;}
+#about .section02 .contents .p2 {font-size: 2.60vw;line-height: 3.75vw;margin: 1.46vw 0;}
+#about .section02 .contents .horLine {display: block;width: 24.38vw;height: 1px;background-color: #888888;}
+#about .section02 .contents img {margin: 3.80vw 0;}
+
+#about .section03 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4vw;}
+#about .section03 .contents .flexBox {justify-content: space-between;width: 50.78vw;}
+#about .section03 .contents .flexBox .item .imgBox {height: 10vw;}
+#about .section03 .contents .flexBox .item .imgBox img {width: 8.44vw;}
+#about .section03 .contents .flexBox .item .p1 {display: flex;justify-content: center;align-items: center;width: 11.46vw;height: 3.65vw;font-size: 1.25vw;line-height: 1.82vw;}
+#about .section03 .contents .arrow {margin: 3.65vw 0;}
+#about .section03 .contents .p2 {font-size: 1.25vw;line-height: 1.82vw;}
+#about .section03 .contents .p3 {font-size: 1.46vw;line-height: 2.14vw;}
+
+#about .section04 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.7vw;}
+#about .section04 .contents .p1 {font-size: 1.46vw ;line-height: 2.14vw ;}
+#about .section04 .contents .flexBox {margin-top: 4.48vw ;}
+#about .section04 .contents .flexBox .item {margin: 0 1.82vw;}
+#about .section04 .contents .flexBox .item .imgBox{width: 20.31vw;}
+#about .section04 .contents .flexBox .item .p2{font-size: 1.25vw;line-height: 1.82vw;margin-top: 2.86vw;}
+
+#about .section05 { position: relative;}
+#about .section05::after {content:none }
+#about .section05 .section05-bg{position: absolute;top: 0;left: -55px;width: 100vw;height: 100%;}
+#about .section05 .contents{display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 94px;}
+#about .section05 .contents .flexBox {text-align: left;margin-left: 350px;}
+#about .section05 .contents .flexBox .dl{width: 187px;font-size: 22px;line-height: 33px;margin-bottom: 42px;}
+#about .section05 .contents .flexBox .dr{width: 673px;font-size: 20px;line-height: 33px;}
+#about .section05 .contents .flexBox .p2{font-size: 18px;line-height: 21px;color: #9A9A9A;margin-top: 5.6px;}
+#about .section05 .contents .flexBox .p3{font-size: 16px;line-height: 18.75px;color: #737373;margin-left: 10px;}
+#about .section05 .contents .flexBox .pf{display: flex;}
+#about .section05 .contents .flexBox .verLine {display: block;width: 1px;height: 15px;margin: 0 20px;margin-top: 12px;background-color: #7C7C7C;}

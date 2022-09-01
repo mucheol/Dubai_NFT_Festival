@@ -38,6 +38,11 @@ $(function() {
 
 // COUNTDOWN
 function updateTimer() {
+  var el = $('.mainWrap');
+  if(el.length <= 0){
+		return;
+	}
+
   future  = Date.parse("October 24, 2022 15:00:00");
   now     = new Date();
   diff    = future - now;
@@ -60,3 +65,8 @@ function updateTimer() {
       '<div>' + s + '<span>seconds</span></div>' ;
 }
 setInterval('updateTimer()', 1000 );
+
+
+$(function(){
+  updateTimer();
+});

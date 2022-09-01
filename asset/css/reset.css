@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  background-color: #000;
 	line-height: 1;
   overflow-x: hidden;
 }
@@ -57,5 +58,4 @@ a, a:active, a:visited {
   word-break: keep-all;
   scroll-behavior: smooth;
   color: #fff;
-  background-color: #000;
 }
