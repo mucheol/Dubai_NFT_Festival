@@ -34,10 +34,10 @@ footer p { font-size: 0.73vw ; line-height: 0.99vw ; text-align: right;}
 footer .p2 { margin-top: 1.09vw ;}
 
 /* Common */
+section {position: relative;min-height: 50.52vw;padding: 0 4.69vw;}
+section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height: 1px;background-color: #5A5A5A;}
 .wrap{ width: 100vw; padding: 4.84vw 3.13vw 3.59vw 3.13vw;}
 .scroll { position: absolute; top: 41.09vw ; right: 4.69vw; font-size: 0.94vw ;line-height: 1.35vw ; transform: rotate(90deg);}
-.scroll.off { display: none;}
-.scroll.bottom { display: none !important;}
 
 /* INDEX(MAIN) */
 .mainWrap { padding: 2.4vw 4.69vw 0;}
@@ -57,12 +57,10 @@ footer .p2 { margin-top: 1.09vw ;}
 .mainWrap #nftTower { position: absolute; top: 7.24vw ; right: 11.72vw ; width: 14.06vw ;}
 
 /* ABOUT */
-#about section {position: relative;min-height: 50.52vw;padding: 0 4.69vw;}
-#about section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height: 1px;background-color: #5A5A5A;}
 #about .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
 #about.wrap {padding: 4.84vw 3.13vw 0 3.13vw;}
 
-#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-x: -78px;}
+#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-y: -98px; background-size: 1920px 1066px;}
 #about .section01 .p1 {font-size: 1.46vw ;line-height: 2.14vw ;color: #787878;} 
 #about .section01 .p2 {font-size: 2.08vw ;line-height: 2.34vw ;} 
 #about .section01 .p3 {font-size: 2.60vw ;line-height: 3.39vw ;} 
@@ -93,12 +91,22 @@ footer .p2 { margin-top: 1.09vw ;}
 
 #about .section05 { position: relative;}
 #about .section05::after {content:none }
-#about .section05 .section05-bg{position: absolute;top: 0;left: -55px;width: 100vw;height: 100%;}
-#about .section05 .contents{display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 94px;}
-#about .section05 .contents .flexBox {text-align: left;margin-left: 350px;}
-#about .section05 .contents .flexBox .dl{width: 187px;font-size: 22px;line-height: 33px;margin-bottom: 42px;}
-#about .section05 .contents .flexBox .dr{width: 673px;font-size: 20px;line-height: 33px;}
-#about .section05 .contents .flexBox .p2{font-size: 18px;line-height: 21px;color: #9A9A9A;margin-top: 5.6px;}
-#about .section05 .contents .flexBox .p3{font-size: 16px;line-height: 18.75px;color: #737373;margin-left: 10px;}
+#about .section05 .section05-bg{position: absolute;top: 0;left: -2.86vw ;width: 100vw;height: 100%;}
+#about .section05 .contents{display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.90vw;}
+#about .section05 .contents .flexBox {text-align: left;margin-left: 18.23vw;}
+#about .section05 .contents .flexBox .dl{width: 9.74vw;font-size: 1.15vw;line-height: 1.72vw;margin-bottom: 2.19vw;}
+#about .section05 .contents .flexBox .dr{width: 35.05vw;font-size: 1.04vw;line-height: 1.72vw;}
+#about .section05 .contents .flexBox .p2{font-size: 0.94vw;line-height: 1.09vw ;color: #9A9A9A;margin-top: 0.3vw;}
+#about .section05 .contents .flexBox .p3{font-size: 0.83vw;line-height: 0.98vw ;color: #737373;margin-left: 0.52vw;}
 #about .section05 .contents .flexBox .pf{display: flex;}
-#about .section05 .contents .flexBox .verLine {display: block;width: 1px;height: 15px;margin: 0 20px;margin-top: 12px;background-color: #7C7C7C;}
+#about .section05 .contents .flexBox .verLine {display: block;width: 1px;height: 0.78vw;margin: 0 1.04vw;margin-top: 0.63vw;background-color: #7C7C7C;}
+#about .section05 .topBtn { position: absolute; right: 0px; bottom: 2.76vw ;}
+#about .section05 .topBtn .btn-circle{display: flex;justify-content: center;align-items: center;width: 3.23vw;height: 3.23vw;border-radius: 50%;background-color: #181818;}
+
+
+/* PARTICIPATION */
+#participation .section01 { padding-top: 15.36vw;}
+#participation .section01 .title{font-size: 4.17vw;line-height: 6.04vw;}
+#participation .section01 .p1{font-size: 1.15vw;line-height: 2.29vw;}
+#participation .section01 .horLine{display: block;width: 3.65vw ;height: 1px;background-color: #fff;margin-top: 1.98vw;}
+

@@ -43,7 +43,7 @@ function updateTimer() {
 		return;
 	}
 
-  future  = Date.parse("October 24, 2022 15:00:00");
+  future  = Date.parse("October 24, 2022 10:30:00");
   now     = new Date();
   diff    = future - now;
 
