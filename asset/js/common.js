@@ -178,8 +178,24 @@ if($('.tabBtnBox .tab01').hasClass('active') === true){
 }
 
 
+function getGrade(){
+  var el = $('#participation');
+  if(el.length <= 0){
+    return;
+  }
+ 
+  // 필수 input값 작성 확인
+  $(function(){
+    $(".gform01").submit(function(event){
+      alert('기업참여신청이 완료되었습니다.')
+      return true;
+    });});
+}
+  
+
 $(function(){
   updateTimer();
   selectGrade();
   programTab();
+  getGrade();
 });
