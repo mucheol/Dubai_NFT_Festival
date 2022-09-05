@@ -13,22 +13,22 @@ $(function() {
     $('.underBar').animate({width:"3.1vw", left:"0"})
   })
   $('.gnb_menu:nth-child(2)').mouseenter(function() {
-    $('.underBar').animate({width:"4.1vw", left:"8vw"})
+    $('.underBar').animate({width:"4.6vw", left:"8.5vw"})
   })
   $('.gnb_menu:nth-child(3)').mouseenter(function() {
-    $('.underBar').animate({width:"4.17vw", left:"17.84vw"})
+    $('.underBar').animate({width:"4.6vw", left:"18.95vw"})
   })
   $('.gnb_menu:nth-child(4)').mouseenter(function() {
-    $('.underBar').animate({width:"1.98vw", left:"27.68vw"})
+    $('.underBar').animate({width:"3.1vw", left:"29.25vw"})
   })
   $('.gnb_menu:nth-child(5)').mouseenter(function() {
-    $('.underBar').animate({width:"2.92vw", left:"35.68vw"})
+    $('.underBar').animate({width:"3.1vw", left:"37.68vw"})
   })
   $('.gnb_menu:nth-child(6)').mouseenter(function() {
-    $('.underBar').animate({width:"5.83vw", left:"43.68vw"})
+    $('.underBar').animate({width:"6.9vw", left:"46.2vw"})
   })
   $('.gnb_menu:nth-child(7)').mouseenter(function() {
-    $('.underBar').animate({width:"4.58vw", left:"53.52vw"})
+    $('.underBar').animate({width:"5.15vw", left:"56.52vw"})
   })
   $('.gnb').mouseleave(function() {
     $('.underBar').animate({width:"0"})
@@ -42,29 +42,25 @@ function updateTimer() {
   if(el.length <= 0){
 		return;
 	}
-
+  
   future  = Date.parse("October 24, 2022 10:30:00");
   now     = new Date();
   diff    = future - now;
-
-  days  = Math.floor( diff / (1000*60*60*24) );
-  hours = Math.floor( diff / (1000*60*60) );
-  mins  = Math.floor( diff / (1000*60) );
-  secs  = Math.floor( diff / 1000 );
-
-  d = days;
-  h = hours - days  * 24;
-  m = mins  - hours * 60;
-  s = secs  - mins  * 60;
-
-  document.getElementById("timer")
+  
+  d  = String(Math.floor(diff / (1000*60*60*24)));
+  h = String( Math.floor((diff / (1000*60*60)) % 24)).padStart(2,"0");
+  m  = String(Math.floor((diff / (1000*60)) % 60)).padStart(2,"0");
+  s  = String(Math.floor(diff / 1000 % 60)).padStart(2,"0");
+    
+    document.getElementById("timer")
     .innerHTML =
-      '<div>' + d + '<span>days</span></div>' +
-      '<div>' + h + '<span>hours</span></div>' +
-      '<div>' + m + '<span>minutes</span></div>' +
-      '<div>' + s + '<span>seconds</span></div>' ;
-}
-setInterval('updateTimer()', 1000 );
+    '<div>' + d + '<span>days</span></div>' +
+    '<div>' + h + '<span>hours</span></div>' +
+    '<div>' + m + '<span>minutes</span></div>' +
+    '<div>' + s + '<span>seconds</span></div>' ;
+  }
+  setInterval('updateTimer()', 1000 );
+  
 
 // Participation select grade
 function selectGrade() {
@@ -93,6 +89,10 @@ function selectGrade() {
   //     }
   //   }
   // })
+  $('.flexBox .dr p').css('color','#565656')
+  for(var i=0; i<plaArr.length; i++ ) {
+    plaArr[i].css('color','red')
+  }
   $('.gradeBox .pla').on('click',function(){
     $(this).siblings('.p1').removeClass('active')
     $(this).addClass('active')

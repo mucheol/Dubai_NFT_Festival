@@ -20,13 +20,13 @@ header { position: fixed; width: 100vw; height: 4.84vw; background-color: #000; 
 header .logo { float: left;}
 header .logo p { font-size: calc(1.46vw + 0.00px); line-height: 4.84vw;}
 .gnb { position: relative; display: flex; float: right;}
-.gnb .gnb_menu{ width: 9.84vw;}
-.gnb .gnb_menu:nth-child(1), .gnb .gnb_menu:nth-child(4),.gnb .gnb_menu:nth-child(5){width: 8vw;}
-.gnb .gnb_menu:nth-child(7){ width: 4.9vw;}
+.gnb .gnb_menu{ width: 10.34vw;}
+.gnb .gnb_menu:nth-child(1), .gnb .gnb_menu:nth-child(4),.gnb .gnb_menu:nth-child(5){width: 8.5vw;}
+.gnb .gnb_menu:nth-child(7){ width: 5.8vw;}
 .gnb .gnb_menu .gnb_title{ position: relative; line-height: 4.84vw; font-size: 1.04vw; font-weight: 700;}
 .gnb .gnb_menu > a span{ position: relative;}
 .gnb .gnb_menu ul li{ font-size: 0.83vw;  margin-top: 1.09vw;}
-header nav .underBar { display: block;  position: absolute;  top: 4.84vw;left: 0; height: 2px; background-color: #fff;}
+header nav .underBar { display: block;  position: absolute;  top: 4.5vw;left: 0; height: 2px; background-color: #fff;}
 
 /* FOOTER */
 footer { height: 10.89vw ; border-top: 1px solid #717171; padding-top: 4.69vw ; padding-right: 2.60vw ;}
@@ -68,7 +68,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .section01 .horLine {display: block;width: 3.65vw ;height: 1px;margin-top: 5.00vw ;margin-bottom: 4.64vw ;background-color: #fff;}
 
 #about .section02 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.38vw;}
-#about .section02 .contents .p1 {font-size: 1.46vw;line-height: 2.14vw;}
+#about .section02 .contents .p1 {font-size: 1.25vw ;line-height: 2.14vw;}
 #about .section02 .contents .p2 {font-size: 2.60vw;line-height: 3.75vw;margin: 1.46vw 0;}
 #about .section02 .contents .horLine {display: block;width: 24.38vw;height: 1px;background-color: #888888;}
 #about .section02 .contents img {margin: 3.80vw 0;}
@@ -77,17 +77,17 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .section03 .contents .flexBox {justify-content: space-between;width: 50.78vw;}
 #about .section03 .contents .flexBox .item .imgBox {height: 10vw;}
 #about .section03 .contents .flexBox .item .imgBox img {width: 8.44vw;}
-#about .section03 .contents .flexBox .item .p1 {display: flex;justify-content: center;align-items: center;width: 11.46vw;height: 3.65vw;font-size: 1.25vw;line-height: 1.82vw;}
+#about .section03 .contents .flexBox .item .p1 {display: flex;justify-content: center;align-items: center;width: 11.46vw;height: 3.65vw;font-size: 1.15vw ;line-height: 1.82vw;}
 #about .section03 .contents .arrow {margin: 3.65vw 0;}
-#about .section03 .contents .p2 {font-size: 1.25vw;line-height: 1.82vw;}
-#about .section03 .contents .p3 {font-size: 1.46vw;line-height: 2.14vw;}
+#about .section03 .contents .p2 {font-size: 1.04vw;line-height: 1.82vw;}
+#about .section03 .contents .p3 {font-size: 1.25vw;line-height: 2.14vw;}
 
 #about .section04 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.7vw;}
-#about .section04 .contents .p1 {font-size: 1.46vw ;line-height: 2.14vw ;}
+#about .section04 .contents .p1 {font-size: 1.25vw;line-height: 2.14vw ;}
 #about .section04 .contents .flexBox {margin-top: 4.48vw ;}
 #about .section04 .contents .flexBox .item {margin: 0 1.82vw;}
 #about .section04 .contents .flexBox .item .imgBox{width: 20.31vw;}
-#about .section04 .contents .flexBox .item .p2{font-size: 1.25vw;line-height: 1.82vw;margin-top: 2.86vw;}
+#about .section04 .contents .flexBox .item .p2{font-size: 1.04vw;line-height: 1.82vw;margin-top: 2.86vw;}
 
 #about .section05 { position: relative;}
 #about .section05::after {content:none }
@@ -114,7 +114,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #program .section02::after { display: none;}
 #program .section02 .contents {margin-top: 6.25vw;margin-left: 5.26vw;}
 #program .section02 .contents .tabBtnBox{display: flex;}
-#program .section02 .contents .tabBtnBox .p01{margin-right: 3.49vw;font-weight: 700;font-size: 1.25vw;line-height: 1.46vw;}
+#program .section02 .contents .tabBtnBox .p01{margin-right: 3.49vw;font-weight: 700;font-size: 1.25vw;line-height: 1.46vw; cursor: pointer;}
 #program .section02 .contents .tabBtnBox .tab01.active { color: #C726FF;}
 #program .section02 .contents .tabBtnBox .tab02.active { color: #5B8C6D;}
 #program .section02 .contents .tabBtnBox .tab03.active { color: #C6268F;}
@@ -127,6 +127,25 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #program .section02 .contents .flexBox .textBox .horLine { display: block; width: 2.03vw ;height: 2px ;background-color: #fff;margin-top: 1.25vw;margin-bottom: 2.08vw;margin-left: 0.21vw ;}
 #program .section02 .contents .flexBox .textBox .p03{margin-left: 0.26vw;}
 #program .section02 .contents .flexBox .textBox .p03 span {display: block; margin-top: 1.46vw;font-size: 0.94vw;line-height: 1.09vw;}
+
+/* VENUE */
+/* PROGRAM */
+#venue .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
+
+#venue .section01 { padding-top: 15.36vw;}
+#venue .section01 .title{font-size: 4.17vw;line-height: 6.04vw;}
+#venue .section01 .p1{font-size: 1.15vw;line-height: 2.29vw;}
+#venue .section01 .horLine{display: block;width: 3.65vw ;height: 1px;background-color: #fff;margin-top: 1.98vw;}
+#venue .section01 .mediaBox {margin-top: 1.46vw;}
+#venue .section02 .mediaBox {margin-top: 1.46vw;}
+#venue .section02 .mediaBox img{width: 100%;}
+#venue .section03 .mediaBox {display: flex;justify-content: center;align-items: center;margin-top: 3.28vw;}
+#venue .section03 .mediaBox img{width: 57.29vw;}
+#venue .section04 .mediaBox {display: flex;justify-content: center;align-items: center;margin-top: 2.60vw;}
+#venue .section04::after{ display: none;}
+#venue .section04 .mediaBox img{margin-left: 5.31vw;}
+#venue .section04 .mediaBox img:nth-child(1){width: 31.82vw;}
+#venue .section04 .mediaBox img:nth-child(2){width: 37.55vw;}
 
 /* PARTICIPATION */
 #participation .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
@@ -167,9 +186,12 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section04 .contents01 .flexBox .dr span{font-size: 0.83vw;line-height: 1.46vw;color: #9A9A9A;}
 
 #participation .section04 .contents02 {width: 48.59vw;border: 1px solid #8E8E8E;margin-top: 2.60vw;padding: 1.35vw 0 1.09vw 2.03vw;}
+#participation .section04 .contents02 .flexBox {position: relative;}
 #participation .section04 .contents02 .flexBox:nth-child(2){margin-top: 2.08vw;}
 #participation .section04 .contents02 .flexBox .dl{width: 7.92vw;font-weight: 500;font-size: 0.94vw;line-height: 1.09vw;}
-#participation .section04 .contents02 .flexBox .dr{font-size: 0.94vw;line-height: 1.09vw;}
+#participation .section04 .contents02 .flexBox .dr{font-size: 0.94vw;line-height: 1.5vw;}
+#participation .section04 .contents02 .partiBtnBox {position: absolute;right: 1.88vw;bottom: 0;display: flex;justify-content: center;align-items: center;width: 11.61vw;height: 2.86vw;background-color: #FCAC06; cursor: pointer;}
+#participation .section04 .contents02 .partiBtn {font-weight: 700;font-size: 1.35vw;line-height: 1.56vw;}
 #participation .section04 .nftTower {position: absolute;right: 11.13vw;bottom:0.6vw; text-align: center;}
 #participation .section04 .nftTower img { width: 17.03vw;height: 43.02vw;}
 #participation .section04 .nftTower .p4{font-size: 0.73vw;line-height: 0.83vw;margin-top: 0.83vw;padding-left: 1.56vw;}
@@ -178,11 +200,13 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section05::after {display: none;}
 #participation .section05 .contents{margin-top: 4.43vw;margin-left: 5.21vw;}
 #participation .section05 .contents .gradeBox {width: 16.77vw;}
-#participation .section05 .contents .gradeBox .p1{height: 4.69vw;font-weight: 700;font-size: 1.46vw;line-height: 2.14vw;color: #767676;}
-#participation .section05 .contents .gradeBox .pla.active {color : red;}
-#participation .section05 .contents .gradeBox .pre.active {color : yellow;}
-#participation .section05 .contents .gradeBox .gol.active {color : green;}
-#participation .section05 .contents .gradeBox .sil.active {color : blue;}
+#participation .section05 .contents .gradeBox .p1{position: relative;width: 7.81vw; height: 4vw;font-weight: 700;font-size: 1.46vw;margin-bottom: 0.69px; line-height: 2.14vw;color: #767676; cursor: pointer;}
+#participation .section05 .contents .gradeBox .p1 span{display: none;position: absolute;left: 0;bottom: 0.45vw;font-weight: 400;font-size: 1.04vw;line-height: 1.51vw;}
+#participation .section05 .contents .gradeBox .p1.active span{display:block;}
+#participation .section05 .contents .gradeBox .pla.active, #participation .section05 .contents .gradeBox .pla span {color : red;}
+#participation .section05 .contents .gradeBox .pre.active, #participation .section05 .contents .gradeBox .pre span {color : yellow;}
+#participation .section05 .contents .gradeBox .gol.active, #participation .section05 .contents .gradeBox .gol span {color : green;}
+#participation .section05 .contents .gradeBox .sil.active, #participation .section05 .contents .gradeBox .sil span {color : blue;}
 #participation .section05 .contents .flexBox {margin-bottom: 2.24vw;}
 #participation .section05 .contents .flexBox .dl{width: 7.81vw;font-weight: 500;font-size: 1.15vw;line-height: 1.67vw;}
 #participation .section05 .contents .flexBox .dr p{font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;color: #565656;}
@@ -203,10 +227,11 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section06 .contents .gradeBox{display: flex;margin-top: 1.56vw;}
 #participation .section06 .contents .gradeBox .inputBox + .inputBox{position: relative;margin-left: 2.29vw;}
 #participation .section06 .contents .gradeBox input{display: none;}
-#participation .section06 .contents .gradeBox label{position: relative;font-size: 1.25vw;line-height: 1.93vw;margin-left: 1.04vw;padding-left: 2.08vw;}
-#participation .section06 .contents .gradeBox label .fakeRadio{position: absolute;top: 50%;left: 0.26vw;transform: translate(-50%, -50%);width: 1.56vw;height: 1.56vw;border-radius: 50%;background-color: #FF0000;}
+#participation .section06 .contents .gradeBox label{position: relative;width: 7.55vw; font-size: 1.25vw;line-height: 1.93vw;margin-left: 1.04vw;padding-left: 2.08vw;}
+#participation .section06 .contents .gradeBox label .fakeRadio{position: absolute;top: 50%;left: 0.26vw;transform: translate(-50%, -50%);width: 1.56vw;height: 1.56vw;border-radius: 50%;background-color: #fff;}
+#participation .section06 .contents .gradeBox .inputBox input:checked + label .fakeRadio{background-color: #FF0000;}
 #participation .section06 .contents .gradeBox label::before{content: "";position: absolute;top: 50%;left: 0.26vw;transform: translate(-50%, -50%);width: 1.35vw;height: 1.35vw;border-radius: 50%;background-color: black;z-index: 2;}
-#participation .section06 .contents .gradeBox .inputBox input:checked + label::after {content: "";position: absolute;top: 50%;left: 0.26vw;transform: translate(-50%, -50%);width: 0.63vw;height: 0.63vw;border-radius: 50%;background-color: #FF0000;z-index: 3;}
+#participation .section06 .contents .gradeBox .inputBox input:checked + label::after {content: "";position: absolute;top: 50%;left: 0.27vw;transform: translate(-50%, -50%);width: 0.63vw;height: 0.63vw;border-radius: 50%;background-color: #FF0000;z-index: 3;}
 #participation .section06 .contents .flexBox02 {display: flex;margin-top: 1.56vw ;}
 #participation .section06 .contents .flexBox02 .dl {width: 8.02vw;font-size: 1.25vw;line-height: 3.28vw;}
 #participation .section06 .contents .flexBox02 .dr .inputBox {position: relative;width: 59.22vw;height: 3.28vw;}
@@ -224,7 +249,8 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section06 .contents .privacyBox label::after{content: '\2714';position: absolute;top: 50%;right: -2.60vw;transform: translate(-50%,-50%);font-size: 1.04vw;}
 #participation .section06 .contents .privacyBox input:checked + label::after{content: '\2714';position: absolute;top: 50%;right: -2.60vw;transform: translate(-50%,-50%);font-size: 1.04vw;color: #FF0000;}
 #participation .section06 .contents .btnBox {display: flex;justify-content: center;align-items: center;width: 75.52vw;margin-top: 2.76vw;padding-bottom: 9.90vw;}
-#participation .section06 .contents .btnBox button{width: 35.00vw;height: 4.17vw;background: #FCAC06;border: 1px solid #FCAC06; font-weight: 700;font-size: 1.46vw;line-height: 1.93vw;}
+#participation .section06 .contents .btnBox button{cursor: pointer; width: 35.00vw;height: 4.17vw;background-color: transparent; color: #FCAC06; border: 1px solid #FCAC06; font-weight: 700;font-size: 1.46vw;line-height: 1.93vw;}
+#participation .section06 .contents .btnBox button:hover {background: #FCAC06;color: #fff;}
 
 #participation .section07::after {display: none;}
 #participation .section07 .title {font-size: 3.13vw;line-height: 4.53vw; margin-top: 9.06vw;}
@@ -254,5 +280,5 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section07 .contents .privacyBox label::after{content: '\2714';position: absolute;top: 50%;right: -2.60vw;transform: translate(-50%,-50%);font-size: 1.04vw;}
 #participation .section07 .contents .privacyBox input:checked + label::after{content: '\2714';position: absolute;top: 50%;right: -2.60vw;transform: translate(-50%,-50%);font-size: 1.04vw;color: #FF0000;}
 #participation .section07 .contents .btnBox {display: flex;justify-content: center;align-items: center;width: 75.52vw;margin-top: 2.76vw;padding-bottom: 6.9vw;}
-#participation .section07 .contents .btnBox button{width: 35.00vw;height: 4.17vw;background: #000;  border: 1px solid #FCAC06; color:#FCAC06;font-weight: 700;font-size: 1.46vw;line-height: 1.93vw;}
-
+#participation .section07 .contents .btnBox button{cursor: pointer; width: 35.00vw;height: 4.17vw;background: transparent;  border: 1px solid #FCAC06; color:#FCAC06;font-weight: 700;font-size: 1.46vw;line-height: 1.93vw;}
+#participation .section07 .contents .btnBox button:hover {background: #FCAC06;color: #fff;}
