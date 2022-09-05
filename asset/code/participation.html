@@ -289,54 +289,65 @@
     <section class="section06">
       <p class="title f-w700">기업 참여 신청</p>
       <div class="contents">
-        <form action="">
+        <form class="gform01" method="POST" data-email="vaexdmcc2021@gmail.com" target="iframe1" action="https://script.google.com/macros/s/AKfycbyoNIF5DAHyGXWYjEy6cMYYDKm7Je8Zyps5Y9Y5i7Dgd0gCxwRogTzjgU-JzH01mlbI/exec">
           <div class="flexBox">
-            <div class="item">
-              <p class="itemTitle p01">회사 명<span class="redStar">*</span></p>
-              <input type="text" placeholder="회사명을 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">회사 URL<span class="redStar">*</span></p>
-              <input type="text" placeholder="회사 URL을 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">담당자 성명<span class="redStar">*</span></p>
-              <input type="text" placeholder="담당자 성명을 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">소속과 직책<span class="redStar">*</span></p>
-              <input type="text" placeholder="소속과 직책을 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">담당자 연락처<span class="redStar">*</span></p>
-              <input type="text" placeholder="담당자 연락처를 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">담당자 E-Mail<span class="redStar">*</span></p>
-              <input type="text" placeholder="담당자 E-Mail을 입력하세요">
-            </div>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="company" >회사 명<span class="redStar">*</span></label>
+                <input type="text" placeholder="회사명을 입력하세요" id="company" name="company">
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="companyUrl">회사 URL<span class="redStar">*</span></label>
+                <input type="text" placeholder="회사 URL을 입력하세요" id="companyUrl" name="companyUrl">
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="managerName">담당자 성명<span class="redStar">*</span></label>
+                <input type="text" placeholder="담당자 성명을 입력하세요" id="managerName" name="managerName">
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="position">소속과 직책<span class="redStar">*</span></label>
+                <input type="text" placeholder="소속과 직책을 입력하세요" id="position" name="position">
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="contactNum">담당자 연락처<span class="redStar">*</span></label>
+                <input type="text" placeholder="담당자 연락처를 입력하세요" id="contactNum" name="contactNum">
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <label class="itemTitle p01" for="contactEmail">담당자 E-Mail<span class="redStar">*</span></label>
+                <input type="text" placeholder="담당자 E-Mail을 입력하세요" id="contactEmail" name="contactEmail">
+              </div>
+            </fieldset>
           </div>
-
           <p class="p01">Sponsor Program 선택<span class="redStar">*</span><a href="#section05" class="a01">확인하기</a></p>
           <div class="gradeBox">
             <div class="inputBox">
-              <input type="radio" id="grade_platinum" name="grade" checked>
+              <input type="radio" id="grade_platinum" class="grade01" name="grade01" value="platinum" checked>
               <label for="grade_platinum"><span class="fakeRadio"></span>Platinum</label>
             </div>
             <div class="inputBox">
-              <input type="radio" id="grade_premium" name="grade">
-              <label for="grade_premium"><span class="fakeRadio"></span>Premium</label>
+                <input type="radio" id="grade_premium" class="grade01" name="grade01" value="premium">
+                <label for="grade_premium"><span class="fakeRadio"></span>Premium</label>
+              </div>
+              <div class="inputBox">
+                <input type="radio" id="grade_gold" class="grade01" name="grade01" value="gold">
+                <label for="grade_gold"><span class="fakeRadio"></span>Gold</label>
+              </div>
+              <div class="inputBox">
+                <input type="radio" id="grade_silver" class="grade01" name="grade01" value="silver">
+                <label for="grade_silver"><span class="fakeRadio"></span>Silver</label>
+              </div>
             </div>
-            <div class="inputBox">
-              <input type="radio" id="grade_gold" name="grade">
-              <label for="grade_gold"><span class="fakeRadio"></span>Gold</label>
-            </div>
-            <div class="inputBox">
-              <input type="radio" id="grade_silver" name="grade">
-              <label for="grade_silver"><span class="fakeRadio"></span>Silver</label>
-            </div>
-          </div>
-          <div class="flexBox02">
+          <!-- <div class="flexBox02">
             <div class="dl">첨부서류<span class="redStar">*</span></div>
             <div class="dr">
               <div class="inputBox">
@@ -347,13 +358,15 @@
               </div>
               <p class="p03">*사업자 등록증을 첨부해주세요</p>
             </div>
-          </div>
-          <div class="flexBox02">
-            <p class="dl">문의 사항</p>
-            <div class="dr">
-              <textarea name="" id="" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 1000자)"></textarea>
+          </div> -->
+          <fieldset class="pure-group">
+            <div class="flexBox02">
+              <p class="dl"><label for="inquiry">문의 사항</label></p>
+              <div class="dr">
+                <textarea name="inquiry" id="inquiry" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)"></textarea>
+              </div>
             </div>
-          </div>
+          </fieldset>
           <div class="privacyBox">
             <input type="checkbox" id="privacy">
             <label for="privacy" class="p01 privacyLabel">개인정보 수집 및 이용동의<span class="redStar">*</span></label>
@@ -362,6 +375,7 @@
             <button class="submit">제출</button>
           </div>
         </form>
+        <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
       </div>
     </section>
 
@@ -384,7 +398,7 @@
             </div>
           </div>
 
-          <div class="flexBox02">
+          <!-- <div class="flexBox02">
             <div class="dl">첨부서류<span class="redStar">*</span></div>
             <div class="dr">
               <div class="inputBox">
@@ -395,11 +409,11 @@
               </div>
               <p class="p03">*Portfolio 를 첨부해주세요</p>
             </div>
-          </div>
+          </div> -->
           <div class="flexBox02">
             <p class="dl">문의 사항</p>
             <div class="dr">
-              <textarea name="" id="" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 1000자)"></textarea>
+              <textarea name="" id="" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)"></textarea>
             </div>
           </div>
           <div class="privacyBox">

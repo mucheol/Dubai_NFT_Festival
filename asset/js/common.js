@@ -10,31 +10,30 @@ $(function() {
   })
 
   $('.gnb_menu:nth-child(1)').mouseenter(function() {
-    $('.underBar').animate({width:"3.1vw", left:"0"})
+    $('.underBar').css({width:"3.1vw", left:"0"})
   })
   $('.gnb_menu:nth-child(2)').mouseenter(function() {
-    $('.underBar').animate({width:"4.6vw", left:"8.5vw"})
+    $('.underBar').css({width:"4.6vw", left:"8.5vw"})
   })
   $('.gnb_menu:nth-child(3)').mouseenter(function() {
-    $('.underBar').animate({width:"4.6vw", left:"18.95vw"})
+    $('.underBar').css({width:"4.6vw", left:"18.95vw"})
   })
   $('.gnb_menu:nth-child(4)').mouseenter(function() {
-    $('.underBar').animate({width:"3.1vw", left:"29.25vw"})
+    $('.underBar').css({width:"3.1vw", left:"29.25vw"})
   })
   $('.gnb_menu:nth-child(5)').mouseenter(function() {
-    $('.underBar').animate({width:"3.1vw", left:"37.68vw"})
+    $('.underBar').css({width:"3.1vw", left:"37.68vw"})
   })
   $('.gnb_menu:nth-child(6)').mouseenter(function() {
-    $('.underBar').animate({width:"6.9vw", left:"46.2vw"})
+    $('.underBar').css({width:"6.9vw", left:"46.2vw"})
   })
   $('.gnb_menu:nth-child(7)').mouseenter(function() {
-    $('.underBar').animate({width:"5.15vw", left:"56.52vw"})
+    $('.underBar').css({width:"5.15vw", left:"56.52vw"})
   })
   $('.gnb').mouseleave(function() {
-    $('.underBar').animate({width:"0"})
+    $('.underBar').css({width:"0"})
   })
 })
-
 
 // COUNTDOWN
 function updateTimer() {
@@ -176,21 +175,8 @@ if($('.tabBtnBox .tab01').hasClass('active') === true){
   $('.chg01').css('color','#2863E3')
   $('.chg01 + .horLine').css('background-color','#2863E3')
 }
-// $('.tabBtnBox .tab02').on('click',function() {
-//   $(this).siblings('.p01').removeClass('active')
-//   $(this).addClass('active')
-//   $('.chg01').html('CONFERENCE')
-//   $('.chg02').html('<span>ᆞ대한민국의 다양한 기업을 중동의투자자에게 소개하는 행사<span/><span>ᆞ해외 투자자를 위한 Category 별 참여 기업 Session<span/>')
-// })
-// $('.tabBtnBox .tab03').on('click',function() {
-//   $(this).siblings('.p01').removeClass('active')
-//   $(this).addClass('active')
-//   $('.chg01').html('K-CULTURE')
-//   $('.chg02').html('<span>ᆞ2022 DUBAI K-POP Festival  Coca-Cola Arena, Dubai<span/><span>ᆞ공연을 NFT화<span/><span>ᆞ해당 NFT를 VAEX에서 거래<span/>')
-// })
-
-
 }
+
 
 $(function(){
   updateTimer();

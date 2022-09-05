@@ -26,7 +26,7 @@ header .logo p { font-size: calc(1.46vw + 0.00px); line-height: 4.84vw;}
 .gnb .gnb_menu .gnb_title{ position: relative; line-height: 4.84vw; font-size: 1.04vw; font-weight: 700;}
 .gnb .gnb_menu > a span{ position: relative;}
 .gnb .gnb_menu ul li{ font-size: 0.83vw;  margin-top: 1.09vw;}
-header nav .underBar { display: block;  position: absolute;  top: 4.5vw;left: 0; height: 2px; background-color: #fff;}
+header nav .underBar { display: block;  position: absolute;  top: 4.5vw;left: 0; height: 2px; background-color: #fff; transition: .5s;}
 
 /* FOOTER */
 footer { height: 10.89vw ; border-top: 1px solid #717171; padding-top: 4.69vw ; padding-right: 2.60vw ;}
