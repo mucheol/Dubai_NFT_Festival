@@ -378,7 +378,7 @@ section::after {display: none;}
 #about .section03 .contents .flexBox .item {margin-bottom: 7.92vw ;}
 #about .section03 .contents .flexBox .item .imgBox {height: 16.88vw;}
 #about .section03 .contents .flexBox .item .imgBox img {width: 17.92vw;}
-#about .section03 .contents .flexBox .item .p1 {width: 33.75vw ;height: auto;font-size: 3.75vw;line-height: 5.42vw; margin-top: 6.25vw;}
+#about .section03 .contents .flexBox .item .p1 {width: 33.5vw ;height: auto;font-size: 3.75vw;line-height: 5.42vw; margin-top: 6.25vw;}
 #about .section03 .contents .arrow {margin: 12.50vw 0;}
 #about .section03 .contents .p2 {font-size: 3.75vw;line-height: 5.42vw;}
 #about .section03 .contents .p3 {font-size: 4.17vw;line-height: 6.04vw;}
@@ -394,7 +394,7 @@ section::after {display: none;}
 
 #about .section05 { position: relative;}
 #about .section05 .p0::after {width: 54.17vw ;}
-#about .section05 .section05-bg{position: absolute;top: 10.83vw;left: -13.33vw;width: 203.96vw;height: 100vw;transform: rotate(90deg);}
+#about .section05 .section05-bg{position: absolute;top: 51.83vw;left: -62.33vw;width: 203.96vw;height: 100vw;transform: rotate(90deg);}
 #about .section05 .contents{display: flex;flex-direction: column;align-items: baseline;text-align: left;margin-top: 18.13vw; margin-bottom: 10.42vw;}
 #about .section05 .contents .flexBox {text-align: left;margin-left: 0;}
 #about .section05 .contents .flexBox .dl{width: 13.75vw;font-size: 4.17vw;line-height: 4.79vw;margin-bottom: 10.42vw;}
