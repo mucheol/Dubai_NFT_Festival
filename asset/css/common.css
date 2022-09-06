@@ -339,7 +339,7 @@ header .logo p {
 .gnb_m .gnb_m_d1{
   display: flex;
   flex-direction: column;
-  font-size: 4.17vw;
+  font-size: 5.00vw ;
   line-height: 6.04vw;
   color: #717171;
   margin-bottom: 7.71vw;
