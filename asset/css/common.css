@@ -15,11 +15,13 @@
 /* Background 전체에 맞출때 */
 .fbg { background-position: center; background-repeat: no-repeat; background-size: cover;}
 
+
 /* HEADER */
 header { position: fixed; width: 100vw; height: 4.84vw; background-color: #000; padding: 0 3.13vw; overflow: hidden; clear: both; z-index: 9999;}
 header .logo { float: left;}
 header .logo p { font-size: calc(1.46vw + 0.00px); line-height: 4.84vw;}
 .gnb { position: relative; display: flex; float: right;}
+.gnb_m { display: none;}
 .gnb .gnb_menu{ width: 10.34vw;}
 .gnb .gnb_menu:nth-child(1), .gnb .gnb_menu:nth-child(4),.gnb .gnb_menu:nth-child(5){width: 8.5vw;}
 .gnb .gnb_menu:nth-child(7){ width: 5.8vw;}
@@ -282,3 +284,143 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section07 .contents .btnBox {display: flex;justify-content: center;align-items: center;width: 75.52vw;margin-top: 2.76vw;padding-bottom: 6.9vw;}
 #participation .section07 .contents .btnBox button{cursor: pointer; width: 35.00vw;height: 4.17vw;background: transparent;  border: 1px solid #FCAC06; color:#FCAC06;font-weight: 700;font-size: 1.46vw;line-height: 1.93vw;}
 #participation .section07 .contents .btnBox button:hover {background: #FCAC06;color: #fff;}
+
+
+@media screen and (max-width:767px){
+
+  /* HEADER */
+header {
+  height: 12.50vw; 
+  padding: 0 6.25vw; }
+header .logo p {
+  font-size: 4.58vw;
+  line-height: 12.50vw;}
+.gnb { display: none;}
+.hamBtn {
+  position: absolute;
+  top: 4.38vw;
+  right: 6.25vw;
+  width: 4.38vw;
+  height: 3.75vw;
+  cursor: pointer;
+}
+.nav_m {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  background-color: #000;
+  
+  transition: .7s;
+  overflow: hidden;
+}
+.nav_m.on {
+  height: 100vh;
+}
+.xBtn {
+  position: absolute;
+  top: 3.96vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4.17vw;
+  height: 4.17vw;
+}
+.nav_m_inner {
+  padding: 26.04vw 6.25vw 0;
+}
+.gnb_m {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  text-align: center;
+}
+.gnb_m .gnb_m_d1{
+  display: flex;
+  flex-direction: column;
+  font-size: 4.17vw;
+  line-height: 6.04vw;
+  color: #717171;
+  margin-bottom: 7.71vw;
+}
+.gnb_m .gnb_m_d1 > a{
+  color: #717171;
+}
+.gnb_m_d1_menu {
+  height: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+.gnb_m_d1.active > a{
+  color: #C6268F;
+}
+.gnb_m_d1:nth-child(2).active .gnb_m_d1_menu {
+  height: 26.04vw;
+}
+.gnb_m_d1:nth-child(3).active .gnb_m_d1_menu {
+  height: 8.96vw;
+}
+.gnb_m_d1:nth-child(4).active .gnb_m_d1_menu {
+  height: 8.96vw;
+}
+.gnb_m_d1:nth-child(5).active .gnb_m_d1_menu {
+  height:17.29vw;
+}
+.gnb_m_d1:nth-child(6).active .gnb_m_d1_menu {
+  height:8.96vw;
+}
+.gnb_m .gnb_m_d2{
+  font-size: 2.92vw;
+  line-height: 4.17vw;
+  color: #FFF;
+  margin-top: 4.58vw;
+}
+.langBox_m {
+  display: flex;
+  justify-content: center;
+  margin-top: 14.17vw;
+}
+.langBox_m a {
+  font-weight: 400;
+  font-size: 2.92vw;
+  line-height: 4.17vw;
+  color: #717171;
+}
+.langBox_m a:nth-child(2) {
+  margin: 0 9.17vw;
+}
+.langBox_m a.active {
+  font-weight: 700;
+  color: #fff;
+}
+
+/* FOOTER */
+footer { height: 10.89vw ; border-top: 1px solid #717171; padding-top: 4.69vw ; padding-right: 2.60vw ;}
+footer p { font-size: 0.73vw ; line-height: 0.99vw ; text-align: right;}
+footer .p2 { margin-top: 1.09vw ;}
+
+/* Common */
+section {position: relative;min-height: 50.52vw;padding: 0 4.69vw;}
+section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height: 1px;background-color: #5A5A5A;}
+.wrap{ width: 100vw; padding: 4.84vw 3.13vw 3.59vw 3.13vw;}
+.scroll { position: absolute; top: 41.09vw ; right: 4.69vw; font-size: 0.94vw ;line-height: 1.35vw ; transform: rotate(90deg);}
+
+/* INDEX(MAIN) */
+.mainWrap { padding: 2.4vw 4.69vw 0;}
+.mainWrap .p1 { font-weight: 300; font-size: 3.13vw;line-height: 3.65vw;}
+.mainWrap .p2 { font-weight: 300; font-size: 4.69vw; line-height: 5.21vw;}
+.mainWrap .p3 { font-weight: 300; font-size: 1.82vw; line-height: 2.66vw;}
+/* COUNTDOWN */
+.mainWrap .countdownBox { height: 18.23vw;}
+.mainWrap .countdownBox .inner{  display: flex; align-items: center; height: 100%;}
+.mainWrap #timer {   font-size: 3.65vw; font-weight: 400; color: white;}
+.mainWrap #timer div { position: relative; display: inline-block; min-width: 4.11vw ; padding-right: 1.98vw; text-align: center;}
+.mainWrap #timer div:nth-child(1) { padding-right: 3.85vw;}
+.mainWrap #timer div:nth-child(1)::after { position: absolute; top: 40%; right: 1.56vw; transform: translate(-50%,-50%); content: ""; width: 0.05vw; height: 1.41vw ; background-color: #8F8F8F;}
+.mainWrap #timer span { color: #fff; display: block; font-size: 0.94vw; font-weight: 300; margin-top: 0.86vw; text-transform: capitalize;}
+.mainWrap .flexBox { font-size: 1.15vw; line-height: 1.67vw;}
+.mainWrap .flexBox .dl{ width: 8.33vw; margin-bottom: 0.52vw;}
+.mainWrap #nftTower { position: absolute; top: 7.24vw ; right: 11.72vw ; width: 14.06vw ;}
+
+}

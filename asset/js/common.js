@@ -34,6 +34,18 @@ $(function() {
     $('.underBar').css({width:"0"})
   })
 })
+// Mobile Header
+$('.hamBtn').click(function(){
+  $('.nav_m').addClass('on');
+})
+$('.xBtn').click(function(){
+  $('.nav_m').removeClass('on');
+})
+
+$('.gnb_m_d1').click(function(){
+    $(this).siblings('.gnb_m_d1').removeClass('active')
+    $(this).addClass('active')
+})
 
 // COUNTDOWN
 function updateTimer() {
@@ -176,7 +188,6 @@ if($('.tabBtnBox .tab01').hasClass('active') === true){
   $('.chg01 + .horLine').css('background-color','#2863E3')
 }
 }
-
 
 function getGrade(){
   var el = $('#participation');
