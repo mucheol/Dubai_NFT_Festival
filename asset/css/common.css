@@ -566,8 +566,8 @@ section::after {display: none;}
 #participation .section06 .contents .flexBox02 .dr textarea{width: 100%;height: 46.25vw;padding:4.17vw;font-size:3.75vw;line-height: 7vw;}
 #participation .section06 .contents .privacyBox {margin-top: 9.5vw;}
 #participation .section06 .contents .privacyBox label::before{top: 56%;right: -10vw;width: 4.58vw ;height: 4.58vw ;}
-#participation .section06 .contents .privacyBox label::after{ right: -7.3vw;font-size: 3.5vw;}
-#participation .section06 .contents .privacyBox input:checked + label::after{ right: -7.3vw;font-size: 3.5vw;}
+#participation .section06 .contents .privacyBox label::after{ width: 4.58vw; right: -10vw;;font-size: 3.5vw;}
+#participation .section06 .contents .privacyBox input:checked + label::after{width: 4.58vw; right: -10vw;font-size: 3.5vw;}
 #participation .section06 .contents .btnBox {width: 87.50vw;height:12.50vw;margin-top: 2.76vw;padding-bottom: 0; margin-bottom: 15vw; margin-left: -4.17vw;margin-top: 10.42vw ;}
 #participation .section06 .contents .btnBox button{width:100%;height: 100%; font-size: 4.58vw;line-height:7.71vw; color: #fff; background-color:#FCAC06;}
 
@@ -597,8 +597,8 @@ section::after {display: none;}
 #participation .section07 .contents .flexBox02 .dr textarea{width: 100%;height: 46.25vw;padding:4.17vw;font-size:3.75vw;line-height: 7vw;}
 #participation .section07 .contents .privacyBox {margin-top: 9.5vw;}
 #participation .section07 .contents .privacyBox label::before{top: 56%;right: -10vw;width: 4.58vw ;height: 4.58vw ;}
-#participation .section07 .contents .privacyBox label::after{ right: -7.3vw;font-size: 3.5vw;}
-#participation .section07 .contents .privacyBox input:checked + label::after{ right: -7.3vw;font-size: 3.5vw;}
+#participation .section07 .contents .privacyBox label::after{width: 4.58vw; right: -10vw;font-size: 3.5vw;}
+#participation .section07 .contents .privacyBox input:checked + label::after{width: 4.58vw; right: -10vw;font-size: 3.5vw;}
 #participation .section07 .contents .btnBox {width: 87.50vw;height:12.50vw;margin-top: 2.76vw;padding-bottom: 0; margin-bottom: 15vw; margin-left: -4.17vw;margin-top: 10.42vw ;}
 #participation .section07 .contents .btnBox button{width:100%;height: 100%; font-size: 4.58vw;line-height:7.71vw; color: #fff; background-color:#FCAC06;}
 #participation .topBtn{    bottom: -14.24vw;}
