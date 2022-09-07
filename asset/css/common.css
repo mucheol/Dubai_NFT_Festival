@@ -483,8 +483,8 @@ section::after {display: none;}
 
 #participation .section03 .flexBox {margin-top:8.13vw;margin-left: 5.21vw;}
 #participation .section03 .flexBox .item {display: none; width: 18.75vw;margin-left: 1.56vw;}
-#participation .section03 .flexBox .item.m_active {display: block; width: 18.75vw;margin-left: 1.56vw;}
-#participation .section03 .flexBox .item .p1 {font-size: 4.17vw;line-height:6.04vw;}
+#participation .section03 .flexBox .item.m_active {display: block; width: 18.75vw;margin-left: 1.56vw;margin-top: 4vw ;}
+#participation .section03 .flexBox .item .p1 {font-size: 4.17vw;line-height:6.04vw; margin-bottom: 7vw;}
 #participation .section03 .flexBox .item .p2 {width: 62.50vw; font-size: 3.75vw;line-height: 7.71vw;}
 #participation .section03 .flexBox .item .p2 span{font-size: 2.5vw;margin-left: 4.2vw;display: block;margin-top: -2vw;}
 
