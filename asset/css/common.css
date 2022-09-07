@@ -529,6 +529,20 @@ section::after {display: none;}
 #participation .section05 .contents .gradeBox .p1.active span{display:block;}
 #participation .section05 .contents .itemBox {display: flex; overflow-x: scroll; width: 79.17vw ;}
 #participation .section05 .contents .itemBox .horScroll {display: flex; width: 108.54vw;}
+#participation .section05 .contents .itemBox::-webkit-scrollbar {
+  height: 3px;  /* 스크롤바의 너비 */
+}
+
+#participation .section05 .contents .itemBox::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #fff; /* 스크롤바의 색상 */
+  
+  border-radius: 00%;
+}
+
+#participation .section05 .contents .itemBox::-webkit-scrollbar-track {
+  background: #434343;  /*스크롤바 뒷 배경 색상*/
+}
 #participation .section05 .contents .itemBox .flexBox { width: auto;height: 52.08vw; margin-bottom: 0;}
 #participation .section05 .contents .flexBox .dl{width: 48.54vw;font-size:3.75vw ;line-height: 5.42vw;}
 #participation .section05 .contents .flexBox:nth-child(2) .dl{width: 38.54vw;}
