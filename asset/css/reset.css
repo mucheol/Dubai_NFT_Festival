@@ -59,3 +59,7 @@ a, a:active, a:visited {
   scroll-behavior: smooth;
   color: #fff;
 }
+html, body {
+  position: relative;
+  overflow-x: hidden;
+}

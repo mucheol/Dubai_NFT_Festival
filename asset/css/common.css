@@ -202,7 +202,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section04 .contents02 .partiBtn {font-weight: 700;font-size: 1.35vw;line-height: 1.56vw;}
 #participation .section04 .nftTower {position: absolute;right: 11.13vw;bottom:0.6vw; text-align: center;}
 #participation .section04 .nftTower img { width: 17.03vw;height: 43.02vw;}
-#participation .section04 .nftTower .p4{font-size: 0.73vw;line-height: 0.83vw;margin-top: 0.83vw;padding-left: 1.56vw;}
+#participation .section04 .nftTower .p4{font-size: 0.73vw;line-height: 0.83vw;margin-top: 0.83vw;padding-left: 1.56vw;color: #717171;}
 #participation .section04 .towerTxt {position: absolute;right: 4.69vw;bottom:3.44vw; width: 4.55vw;height:41.25vw;}
 
 #participation .section05::after {display: none;}
@@ -365,7 +365,7 @@ section::after {display: none;}
 #about .p0 {position: relative;width: fit-content;font-size: 4.17vw;line-height: 6.04vw;padding-top: 16.46vw;}
 #about .p0::after {content: "";position: absolute;bottom: 2.08vw;left: 110%;width: 42.92vw;height: 1px;background-color: #717171;}
 
-#about.wrap {padding:0; padding-top: 12.50vw ;}
+#about.wrap {width: 100vw; padding:0; padding-top: 12.50vw ;}
 
 #about .section01{height: 155.21vw; padding-top: 13.33vw; background: none;}
 #about .section01 .p1 {font-size: 4.17vw;line-height: 6.04vw;color: #787878;} 
@@ -425,12 +425,12 @@ section::after {display: none;}
 
 #program .section02::after { display: none;}
 #program .section02 .contents {position: relative; margin-top: 6.25vw;margin-left: 0;}
-#program .section02 .contents .tabBtnBox{display: flex; position:absolute; top: 52vw;width: 79.17vw;justify-content: space-between;}
+#program .section02 .contents .tabBtnBox{display: flex; position:absolute; top: 55vw;width: 79.17vw;justify-content: space-between;}
 #program .section02 .contents .tabBtnBox .p01{margin-right: 0;font-size:3.33vw;line-height:3.96vw;}
 #program .section02 .contents .flexBox {flex-direction: column; margin-top: 13.54vw;}
 #program .section02 .contents .flexBox .mediaBox{width: 87.50vw;height:47.29vw;margin-left:-4.17vw;}
 #program .section02 .contents .flexBox .mediaBox .media01{width: 100%;height: 100%;}
-#program .section02 .contents .flexBox .textBox {width: 100%;height:90.63vw;padding-top:21.25vw;padding-left: 0;}
+#program .section02 .contents .flexBox .textBox {width: 100%;height:90.63vw;padding-top:24.25vw;padding-left: 0;}
 #program .section02 .contents .flexBox .textBox .p02{font-size: 5vw;line-height:5.83vw;}
 #program .section02 .contents .flexBox .textBox .horLine {width:8.13vw;margin-top:6.67vw;margin-bottom:9.17vw;margin-left:0;}
 #program .section02 .contents .flexBox .textBox .p03{position: relative; margin-left: 0; font-size: 3.75vw;line-height: 4.7vw; text-indent: -20px; padding-left: 20px;}
