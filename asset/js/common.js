@@ -37,9 +37,11 @@ $(function() {
 // Mobile Header
 $('.hamBtn').click(function(){
   $('.nav_m').addClass('on');
+  $('body').css('overflow','hidden')
 })
 $('.xBtn').click(function(){
   $('.nav_m').removeClass('on');
+  $('body').css('overflow','auto')
 })
 
 $('.gnb_m_d1').click(function(){
@@ -136,6 +138,28 @@ function selectGrade() {
       silArr[i].css('color','blue')
     }
   });
+
+  // 모바일
+  $('.tabBtn').click(function(){
+    $(this).siblings('.tabBtn').removeClass('m_active');
+    $(this).addClass('m_active');
+    if($('.tb01').hasClass('m_active')){
+      $('.fi01').siblings('.item').removeClass('m_active')
+      $('.fi01').addClass('m_active')
+    }else if($('.tb02').hasClass('m_active')){
+      $('.fi02').siblings('.item').removeClass('m_active')
+      $('.fi02').addClass('m_active')
+    }else if($('.tb03').hasClass('m_active')){
+      $('.fi03').siblings('.item').removeClass('m_active')
+      $('.fi03').addClass('m_active')
+    }else if($('.tb04').hasClass('m_active')){
+      $('.fi04').siblings('.item').removeClass('m_active')
+      $('.fi04').addClass('m_active')
+    }else if($('.tb05').hasClass('m_active')){
+      $('.fi05').siblings('.item').removeClass('m_active')
+      $('.fi05').addClass('m_active')
+    }
+  })
 }
 
 // program tab menu
