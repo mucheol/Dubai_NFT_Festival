@@ -104,14 +104,14 @@ function selectGrade() {
   // })
   $('.flexBox .dr p').css('color','#565656')
   for(var i=0; i<plaArr.length; i++ ) {
-    plaArr[i].css('color','red')
+    plaArr[i].css('color','#D10000')
   }
   $('.gradeBox .pla').on('click',function(){
     $(this).siblings('.p1').removeClass('active')
     $(this).addClass('active')
     $('.flexBox .dr p').css('color','#565656')
     for(var i=0; i<plaArr.length; i++ ) {
-      plaArr[i].css('color','red')
+      plaArr[i].css('color','#D10000')
     }
   });
   $('.gradeBox .pre').on('click',function(){
@@ -119,7 +119,7 @@ function selectGrade() {
     $(this).addClass('active')
     $('.flexBox .dr p').css('color','#565656')
     for(var i=0; i<preArr.length; i++ ) {
-      preArr[i].css('color','yellow')
+      preArr[i].css('color','#870EE7')
     }
   });
   $('.gradeBox .gol').on('click',function(){
@@ -127,7 +127,7 @@ function selectGrade() {
     $(this).addClass('active')
     $('.flexBox .dr p').css('color','#565656')
     for(var i=0; i<golArr.length; i++ ) {
-      golArr[i].css('color','green')
+      golArr[i].css('color','#FCAC06')
     }
   });
   $('.gradeBox .sil').on('click',function(){
@@ -135,7 +135,7 @@ function selectGrade() {
     $(this).addClass('active')
     $('.flexBox .dr p').css('color','#565656')
     for(var i=0; i<silArr.length; i++ ) {
-      silArr[i].css('color','blue')
+      silArr[i].css('color','#BAD7F0')
     }
   });
 

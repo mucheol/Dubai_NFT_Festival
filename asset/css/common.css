@@ -211,13 +211,13 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section05 .contents .gradeBox .p1{position: relative;width: 7.81vw; height: 4vw;font-weight: 700;font-size: 1.46vw;margin-bottom: 0.69px; line-height: 2.14vw;color: #767676; cursor: pointer;}
 #participation .section05 .contents .gradeBox .p1 span{display: none;position: absolute;left: 0;bottom: 0.45vw;font-weight: 400;font-size: 1.04vw;line-height: 1.51vw;}
 #participation .section05 .contents .gradeBox .p1.active span{display:block;}
-#participation .section05 .contents .gradeBox .pla.active, #participation .section05 .contents .gradeBox .pla span {color : red;}
-#participation .section05 .contents .gradeBox .pre.active, #participation .section05 .contents .gradeBox .pre span {color : yellow;}
-#participation .section05 .contents .gradeBox .gol.active, #participation .section05 .contents .gradeBox .gol span {color : green;}
-#participation .section05 .contents .gradeBox .sil.active, #participation .section05 .contents .gradeBox .sil span {color : blue;}
+#participation .section05 .contents .gradeBox .pla.active, #participation .section05 .contents .gradeBox .pla span {color : #D10000;}
+#participation .section05 .contents .gradeBox .pre.active, #participation .section05 .contents .gradeBox .pre span {color : #870EE7;}
+#participation .section05 .contents .gradeBox .gol.active, #participation .section05 .contents .gradeBox .gol span {color : #FCAC06;}
+#participation .section05 .contents .gradeBox .sil.active, #participation .section05 .contents .gradeBox .sil span {color : #BAD7F0;}
 #participation .section05 .contents .flexBox {margin-bottom: 2.24vw;}
 #participation .section05 .contents .flexBox .dl{width: 7.81vw;font-weight: 500;font-size: 1.15vw;line-height: 1.67vw;}
-#participation .section05 .contents .flexBox .dr p{font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;color: #565656;}
+#participation .section05 .contents .flexBox .dr p{font-weight: 350;font-size: 1.15vw ;line-height: 1.98vw;color: #565656;}
 
 #participation .secArrowBox {display: flex;justify-content: center;align-items: center;width: 100%;height: 17.34vw;}
 #participation .secArrow{width: 1.72vw;height: 0.83vw;}
