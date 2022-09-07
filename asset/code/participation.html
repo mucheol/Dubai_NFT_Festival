@@ -364,7 +364,7 @@
     <section class="section06">
       <p class="title f-w700">기업 참여 신청</p>
       <div class="contents">
-        <form class="gform01" method="POST" data-email="vaexdmcc2021@gmail.com" target="iframe1" action="https://script.google.com/macros/s/AKfycbyoNIF5DAHyGXWYjEy6cMYYDKm7Je8Zyps5Y9Y5i7Dgd0gCxwRogTzjgU-JzH01mlbI/exec">
+        <form class="gform01" method="POST" data-email="vaexdmcc2021@gmail.com" target="iframe1" action="https://script.google.com/macros/s/AKfycbzxmb8jBoU7qYlEOUunuRTZ3D1rNkZiFvl1zftPRmP7yX0dw3yB69jplzHtRlmcZ9hO/exec">
           <div class="flexBox">
             <fieldset class="pure-group">
               <div class="item">
@@ -438,7 +438,7 @@
             <div class="flexBox02">
               <p class="dl"><label for="inquiry">문의 사항</label></p>
               <div class="dr">
-                <textarea name="inquiry" id="inquiry" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)"></textarea>
+                <textarea name="inquiry" id="inquiry" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)" style="resize: none;" maxlength="500"></textarea>
               </div>
             </div>
           </fieldset>
@@ -447,7 +447,7 @@
             <label for="privacy" class="p01 privacyLabel">개인정보 수집 및 이용동의<span class="redStar">*</span></label>
           </div>
           <div class="btnBox">
-            <button class="submit">제출</button>
+            <button class="submit" onclick="event_click01();">제출</button>
           </div>
         </form>
         <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
@@ -457,20 +457,26 @@
     <section class="section07" id="section07">
       <p class="title f-w700">NFT ART TOWER 참여 신청</p>
       <div class="contents">
-        <form action="">
+        <form  class="gform02" method="POST" data-email="vaexdmcc2021@gmail.com" target="iframe2" action="https://script.google.com/macros/s/AKfycby3xsSubypDGJPuXrSgzx24eEo6BAueoViV0CVrx2prJ_Z5nWu8W8DBoVNqKmyY-pY/exec">
           <div class="flexBox">
-            <div class="item">
-              <p class="itemTitle p01">성명<span class="redStar">*</span></p>
-              <input type="text" placeholder="성명을 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">연락처<span class="redStar">*</span></p>
-              <input type="text" placeholder="연락처를 입력하세요">
-            </div>
-            <div class="item">
-              <p class="itemTitle p01">E-Mail<span class="redStar">*</span></p>
-              <input type="text" placeholder="E-Mail을 입력하세요">
-            </div>
+            <fieldset class="pure-group">
+              <div class="item">
+                <p class="itemTitle p01">성명<span class="redStar">*</span></p>
+                <input type="text" placeholder="성명을 입력하세요" id="nameNAT" name="nameNAT" required>
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <p class="itemTitle p01">연락처<span class="redStar">*</span></p>
+                <input type="text" placeholder="연락처를 입력하세요" id="contactNumNAT" name="contactNumNAT" required>
+              </div>
+            </fieldset>
+            <fieldset class="pure-group">
+              <div class="item">
+                <p class="itemTitle p01">E-Mail<span class="redStar">*</span></p>
+                <input type="text" placeholder="E-Mail을 입력하세요" id="emailNAT" name="emailNAT" required>
+              </div>
+            </fieldset>
           </div>
 
           <!-- <div class="flexBox02">
@@ -485,20 +491,23 @@
               <p class="p03">*Portfolio 를 첨부해주세요</p>
             </div>
           </div> -->
-          <div class="flexBox02">
-            <p class="dl">문의 사항</p>
-            <div class="dr">
-              <textarea name="" id="" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)"></textarea>
+          <fieldset class="pure-group">
+            <div class="flexBox02">
+              <p class="dl"><label for="inquiryNAT">문의 사항</label></p>
+              <div class="dr">
+                <textarea name="inquiryNAT" id="inquiryNAT" cols="30" rows="10" placeholder="문의 사항을 입력해주세요. (최대 500자)" style="resize: none;" maxlength="500"></textarea>
+              </div>
             </div>
-          </div>
+          </fieldset>
           <div class="privacyBox">
-            <input type="checkbox" id="privacy02">
-            <label for="privacy02" class="p01 privacyLabel">개인정보 수집 및 이용동의<span class="redStar">*</span></label>
+            <input type="checkbox" id="privacyNAT" required>
+            <label for="privacyNAT" class="p01 privacyLabel">개인정보 수집 및 이용동의<span class="redStar">*</span></label>
           </div>
           <div class="btnBox">
-            <button class="submit">제출</button>
+            <button class="submit" onclick="event_click02();">제출</button>
           </div>
         </form>
+        <iframe id="iframe2" name="iframe2" style="display:none"></iframe>
       </div>
       <a href="#participation">
         <div class="topBtn">

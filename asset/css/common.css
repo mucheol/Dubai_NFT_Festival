@@ -615,4 +615,5 @@ section::after {display: none;}
 #participation .section07 .contents .privacyBox input:checked + label::after{width: 4.58vw; right: -10vw;font-size: 3.5vw;}
 #participation .section07 .contents .btnBox {width: 87.50vw;height:12.50vw;margin-top: 2.76vw;padding-bottom: 0; margin-bottom: 15vw; margin-left: -4.17vw;margin-top: 10.42vw ;}
 #participation .section07 .contents .btnBox button{width:100%;height: 100%; font-size: 4.58vw;line-height:7.71vw; color: #fff; background-color:#FCAC06;}
-#participation .topBtn{    bottom: -14.24vw;}
+#participation .topBtn{bottom: -14.24vw;}
+}

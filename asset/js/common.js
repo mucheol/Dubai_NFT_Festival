@@ -224,9 +224,63 @@ function getGrade(){
     $(".gform01").submit(function(event){
       alert('기업참여신청이 완료되었습니다.')
       return true;
-    });});
+    });
+    $(".gform02").submit(function(event){
+      alert('NFT ART TOWER 참여 신청이 완료되었습니다.')
+      return true;
+    });
+  });
 }
-  
+
+function event_click01() {
+  if(document.getElementById("company").value==''){
+    alert("회사명을 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("companyUrl").value==''){
+    alert("회사URL을 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("managerName").value==''){
+    alert("담당자 성명을 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("position").value==''){
+    alert("소속과 직책을 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("contactNum").value==''){
+    alert("담당자 연락처를 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("contactEmail").value==''){
+    alert("담당자 E-Mail을 입력해주십시오.");
+    return false;
+  }
+  if(!document.getElementById("privacy").checked){
+    alert("개인정보 수집 및 이용에 대한 동의가 필요합니다.");
+    return false;
+  }
+}
+function event_click02() {
+  if(document.getElementById("nameNAT").value==''){
+    alert("성명을 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("contactNumNAT").value==''){
+    alert("연락처를 입력해주십시오.");
+    return false;
+  }
+  if(document.getElementById("emailNAT").value==''){
+    alert("E-Mail을 입력해주십시오.");
+    return false;
+  }
+  if(!document.getElementById("privacyNAT").checked){
+    alert("개인정보 수집 및 이용에 대한 동의가 필요합니다.");
+    return false;
+  }
+}
+
 
 $(function(){
   updateTimer();
