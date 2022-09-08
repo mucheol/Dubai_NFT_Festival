@@ -87,7 +87,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .section03 .contents .flexBox .item .p1 {display: flex;justify-content: center;align-items: center;width: 11.46vw;height: 3.65vw;font-size: 1.15vw ;line-height: 1.82vw;}
 #about .section03 .contents .arrow {margin: 3.65vw 0;}
 #about .section03 .contents .p2 {font-size: 1.04vw;line-height: 1.82vw;}
-#about .section03 .contents .p3 {width: 52.08vw; font-size: 1.25vw;line-height: 2.14vw;}
+#about .section03 .contents .p3 {width: 54.08vw; font-size: 1.25vw;line-height: 2.14vw;}
 
 #about .section04 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.7vw;}
 #about .section04 .contents .p1 {font-size: 1.25vw;line-height: 2.14vw ;}
@@ -131,7 +131,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #program .section02 .contents .flexBox .textBox {width: 33.18vw;height: 29.53vw;padding-top: 13.91vw;padding-left: 3.49vw;}
 #program .section02 .contents .flexBox .textBox .p02{font-weight: 700;font-size: 1.46vw;line-height: 1.72vw;}
 #program .section02 .contents .flexBox .textBox .horLine { display: block; width: 2.03vw ;height: 2px ;background-color: #fff;margin-top: 1.25vw;margin-bottom: 2.08vw;margin-left: 0.21vw ;}
-#program .section02 .contents .flexBox .textBox .p03{width: 24vw; text-indent: -15px; padding-left: 15px; margin-left: 0.26vw; line-height: 1.4vw;}
+#program .section02 .contents .flexBox .textBox .p03{width: 24vw; text-indent: -1.04vw ; padding-left: 1.04vw ; margin-left: 0.26vw; line-height: 1.4vw;}
 #program .section02 .contents .flexBox .textBox .p03 span {display: block; margin-top: 1.46vw;font-size: 0.94vw;line-height: 1.4vw;}
 
 /* VENUE */
@@ -169,7 +169,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section02 .contentsBox .rightBox .p3{font-size: 1.04vw;line-height: 1.51vw;}
 #participation .section02 .contentsBox .rightBox .p3 span{font-size: 1.46vw;line-height: 2.14vw;margin-right: 0.94vw;}
 #participation .section02 .contentsBox .rightBox .p4{width: 100%;font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;margin-top: 1.04vw;}
-#participation .section02 .contentsBox .rightBox .item:nth-child(1) .p4:nth-child(2){text-indent: -15px; padding-left: 15px; }
+#participation .section02 .contentsBox .rightBox .item:nth-child(1) .p4:nth-child(2){text-indent: -1.04vw ; padding-left: 1.04vw ;}
 #participation .section02 .contentsBox .rightBox .p4 + .p4 { margin-top: 0;}
 
 #participation .blackLine {position: absolute;top: 108.7vw;display: block;height: 0.26vw;background-color: #000;}
@@ -408,7 +408,7 @@ section::after {display: none;}
 
 #about .section05 { position: relative;}
 #about .section05 .p0::after {width: 54.17vw ;}
-#about .section05 .section05-bg{position: absolute;top: 51.83vw;left: -62.33vw;width: 203.96vw;height: 100vw;transform: rotate(90deg);}
+#about .section05 .section05-bg{position: absolute;top:25.83vw;left: -62.33vw;width: 203.96vw;height: 100vw;transform: rotate(90deg);}
 #about .section05 .contents{display: flex;flex-direction: column;align-items: baseline;text-align: left;margin-top: 18.13vw; margin-bottom: 10.42vw;}
 #about .section05 .contents .flexBox {text-align: left;margin-left: 0;}
 #about .section05 .contents .flexBox .dl{width: 13.75vw;font-size: 4.17vw;line-height: 4.79vw;margin-bottom: 10.42vw;}
@@ -436,7 +436,7 @@ section::after {display: none;}
 #program .section02 .contents .flexBox .textBox {width: 100%;height:90.63vw;padding-top:24.25vw;padding-left: 0;}
 #program .section02 .contents .flexBox .textBox .p02{font-size: 5vw;line-height:5.83vw;}
 #program .section02 .contents .flexBox .textBox .horLine {width:8.13vw;margin-top:6.67vw;margin-bottom:9.17vw;margin-left:0;}
-#program .section02 .contents .flexBox .textBox .p03{position: relative; margin-left: 0; font-size: 3.75vw;line-height: 4.7vw; text-indent: -1.04vw ; padding-left: 1.04vw ;}
+#program .section02 .contents .flexBox .textBox .p03{position: relative; margin-left: 0; font-size: 3.75vw;line-height: 4.7vw; text-indent: -1.04vw ; padding-left: 1.04vw ; width: 100%;}
 #program .section02 .contents .flexBox .textBox .p03 span {margin-top:3.33vw;font-size:3.75vw;line-height:4.38vw;}
 
 /* VENUE */

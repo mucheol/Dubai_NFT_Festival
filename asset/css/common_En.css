@@ -1,7 +1,15 @@
 
 
-
-
+#participation .section04 .contents02 .flexBox {
+  flex-direction: column;
+}
+#participation .section04 .contents02 .flexBox .dl {
+  width: 10.92vw;
+}
+#participation .section04 .contents02 .flexBox .ep {
+  font-size: 0.94vw;
+    line-height: 1.5vw;
+}
 
 
 
