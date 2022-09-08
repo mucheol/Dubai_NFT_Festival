@@ -66,7 +66,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
 #about.wrap {padding: 4.84vw 3.13vw 0 3.13vw;}
 
-#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-y: -98px; background-size: 1920px 1066px;}
+#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-y: -98px; background-size: 191.04vw  1066px;}
 #about .section01 .p1 {font-size: 1.46vw ;line-height: 2.14vw ;color: #787878;} 
 #about .section01 .p2 {font-size: 2.08vw ;line-height: 2.34vw ;} 
 #about .section01 .p3 {font-size: 2.60vw ;line-height: 3.39vw ;} 
@@ -87,7 +87,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .section03 .contents .flexBox .item .p1 {display: flex;justify-content: center;align-items: center;width: 11.46vw;height: 3.65vw;font-size: 1.15vw ;line-height: 1.82vw;}
 #about .section03 .contents .arrow {margin: 3.65vw 0;}
 #about .section03 .contents .p2 {font-size: 1.04vw;line-height: 1.82vw;}
-#about .section03 .contents .p3 {font-size: 1.25vw;line-height: 2.14vw;}
+#about .section03 .contents .p3 {width: 52.08vw; font-size: 1.25vw;line-height: 2.14vw;}
 
 #about .section04 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.7vw;}
 #about .section04 .contents .p1 {font-size: 1.25vw;line-height: 2.14vw ;}
@@ -131,8 +131,8 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #program .section02 .contents .flexBox .textBox {width: 33.18vw;height: 29.53vw;padding-top: 13.91vw;padding-left: 3.49vw;}
 #program .section02 .contents .flexBox .textBox .p02{font-weight: 700;font-size: 1.46vw;line-height: 1.72vw;}
 #program .section02 .contents .flexBox .textBox .horLine { display: block; width: 2.03vw ;height: 2px ;background-color: #fff;margin-top: 1.25vw;margin-bottom: 2.08vw;margin-left: 0.21vw ;}
-#program .section02 .contents .flexBox .textBox .p03{margin-left: 0.26vw;}
-#program .section02 .contents .flexBox .textBox .p03 span {display: block; margin-top: 1.46vw;font-size: 0.94vw;line-height: 1.09vw;}
+#program .section02 .contents .flexBox .textBox .p03{width: 24vw; text-indent: -15px; padding-left: 15px; margin-left: 0.26vw; line-height: 1.4vw;}
+#program .section02 .contents .flexBox .textBox .p03 span {display: block; margin-top: 1.46vw;font-size: 0.94vw;line-height: 1.4vw;}
 
 /* VENUE */
 /* PROGRAM */
@@ -168,7 +168,9 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section02 .contentsBox .rightBox .item{margin-bottom: 6.61vw ;}
 #participation .section02 .contentsBox .rightBox .p3{font-size: 1.04vw;line-height: 1.51vw;}
 #participation .section02 .contentsBox .rightBox .p3 span{font-size: 1.46vw;line-height: 2.14vw;margin-right: 0.94vw;}
-#participation .section02 .contentsBox .rightBox .p4{font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;margin-top: 1.04vw;}
+#participation .section02 .contentsBox .rightBox .p4{width: 34.5vw;font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;margin-top: 1.04vw;}
+#participation .section02 .contentsBox .rightBox .item:nth-child(1) .p4:nth-child(2){text-indent: -15px; padding-left: 15px; }
+#participation .section02 .contentsBox .rightBox .p4 + .p4 { margin-top: 0;}
 
 #participation .blackLine {position: absolute;top: 108.7vw;display: block;height: 0.26vw;background-color: #000;}
 #participation .bL01 {width: 8.8vw;left: 52.5vw;}
@@ -176,12 +178,13 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .bg01 {position: absolute;top: 88.26vw;left: 13vw;width: 86.29vw;height: 40.8vw;}
 
 
+#participation .section03 {    padding-bottom: 5vw;}
 #participation .section03 .tabBtnBox {display: none;}
 #participation .section03 .flexBox {margin-top: 13.13vw;margin-left: 5.21vw;}
 #participation .section03 .flexBox .item {width: 18.75vw;margin-left: 1.56vw;}
 #participation .section03 .flexBox .item .p1{font-weight: 700;font-size: 1.25vw;line-height: 1.82vw;margin-bottom: 1.82vw;}
-#participation .section03 .flexBox .item .p2{font-weight: 350;font-size: 0.94vw;    line-height: 1.2vw;margin-top: 1.2vw;}
-#participation .section03 .flexBox .item .p2 span{font-size: 0.73vw;color: #9B9B9B;margin-left: 0.83vw;}
+#participation .section03 .flexBox .item .p2{text-indent: -1.04vw ; padding-left: 1.04vw ; font-weight: 350;font-size: 0.94vw;    line-height: 1.2vw;margin-top: 1.2vw;}
+#participation .section03 .flexBox .item .p2 span{ font-size: 0.73vw;color: #9B9B9B;margin-left: 0;}
 
 #participation .section04 {padding-bottom: 49px;}
 #participation .section04 .p1 {font-weight: 700;font-size: 1.46vw;line-height: 2.14vw;margin-top: 1.56vw;}
@@ -189,17 +192,17 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section04 .p3 {font-weight: 350;font-size: 1.46vw;line-height: 1.93vw;}
 #participation .section04 .contents01 {margin-top: 3.96vw;}
 #participation .section04 .contents01 .flexBox{margin-top: 1.04vw ;}
-#participation .section04 .contents01 .flexBox .dl{width: 5.42vw;font-weight: 500;font-size: 0.94vw;line-height: 1.09vw;}
+#participation .section04 .contents01 .flexBox .dl{width: 7vw;font-weight: 500;font-size: 0.94vw;line-height: 1.09vw;}
 #participation .section04 .contents01 .flexBox .dr{font-size: 0.94vw;line-height: 1.09vw;}
 #participation .section04 .contents01 .flexBox .dr span{font-size: 0.83vw;line-height: 1.46vw;color: #9A9A9A;}
 
-#participation .section04 .contents02 {width: 48.59vw;border: 1px solid #8E8E8E;margin-top: 2.60vw;padding: 1.35vw 0 1.09vw 2.03vw;}
+#participation .section04 .contents02 {width: 60vw;border: 1px solid #8E8E8E;margin-top: 2.60vw;padding: 1.35vw 0 1.09vw 2.03vw;}
 #participation .section04 .contents02 .flexBox {position: relative;}
 #participation .section04 .contents02 .flexBox:nth-child(2){margin-top: 2.08vw;}
 #participation .section04 .contents02 .flexBox .dl{width: 7.92vw;font-weight: 500;font-size: 0.94vw;line-height: 1.09vw;}
 #participation .section04 .contents02 .flexBox .dr{font-size: 0.94vw;line-height: 1.5vw;}
 #participation .section04 .contents02 .partiBtnBox {position: absolute;right: 1.88vw;bottom: 0;display: flex;justify-content: center;align-items: center;width: 11.61vw;height: 2.86vw;background-color: #FCAC06; cursor: pointer;}
-#participation .section04 .contents02 .partiBtn {font-weight: 700;font-size: 1.35vw;line-height: 1.56vw;}
+#participation .section04 .contents02 .partiBtn {font-weight: 700;font-size: 1vw;line-height: 1.56vw;}
 #participation .section04 .nftTower {position: absolute;right: 11.13vw;bottom:0.6vw; text-align: center;}
 #participation .section04 .nftTower img { width: 17.03vw;height: 43.02vw;}
 #participation .section04 .nftTower .p4{font-size: 0.73vw;line-height: 0.83vw;margin-top: 0.83vw;padding-left: 1.56vw;color: #717171;}
@@ -377,7 +380,7 @@ section::after {display: none;}
 
 #about .section02 .p0::after {width: 48.75vw;}
 #about .section02 .contents {margin-top: 21.04vw; padding-bottom: 25.63vw;}
-#about .section02 .contents .p1 {font-size: 4.17vw;line-height: 6.04vw;}
+#about .section02 .contents .p1 {width: 62vw; font-size: 4.17vw;line-height: 6.04vw;}
 #about .section02 .contents .p2 {font-size: 6.25vw;line-height: 8.96vw; margin:5.83vw ;}
 #about .section02 .contents .horLine {display: block;width: 63.54vw ;height: 1px;background-color: #888888;}
 #about .section02 .contents img {margin: 8.33vw 0;}
@@ -433,7 +436,7 @@ section::after {display: none;}
 #program .section02 .contents .flexBox .textBox {width: 100%;height:90.63vw;padding-top:24.25vw;padding-left: 0;}
 #program .section02 .contents .flexBox .textBox .p02{font-size: 5vw;line-height:5.83vw;}
 #program .section02 .contents .flexBox .textBox .horLine {width:8.13vw;margin-top:6.67vw;margin-bottom:9.17vw;margin-left:0;}
-#program .section02 .contents .flexBox .textBox .p03{position: relative; margin-left: 0; font-size: 3.75vw;line-height: 4.7vw; text-indent: -20px; padding-left: 20px;}
+#program .section02 .contents .flexBox .textBox .p03{position: relative; margin-left: 0; font-size: 3.75vw;line-height: 4.7vw; text-indent: -1.04vw ; padding-left: 1.04vw ;}
 #program .section02 .contents .flexBox .textBox .p03 span {margin-top:3.33vw;font-size:3.75vw;line-height:4.38vw;}
 
 /* VENUE */

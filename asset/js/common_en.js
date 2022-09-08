@@ -177,25 +177,25 @@ $('.tabBtnBox .p01').on('click',function() {
     $('.chg01').html('NFT')
     $('.chg01').css('color','#C726FF')
     $('.chg01 + .horLine').css('background-color','#C726FF')
-    $('.chg02').html('<span>ᆞNFT의 과거 , 현재의 분석을 통한 NFT의 미래 방향 토론</span>')
+    $('.chg02').html('<span>ᆞDiscussing the future direction of NFT through analysis of the past and present of NFT</span>')
   }else if($('.tabBtnBox .tab02').hasClass('active') === true){
     $('.mediaBox').html('<img src="../image/program_media02.png" alt="" class="media01">')
     $('.chg01').html('CONFERENCE')
     $('.chg01').css('color','#5B8C6D')
     $('.chg01 + .horLine').css('background-color','#5B8C6D')
-    $('.chg02').html('<span>ᆞ대한민국의 다양한 기업을 중동의투자자에게 소개하는 행사</span><span>ᆞ해외 투자자를 위한 Category 별 참여 기업 Session</span>')
+    $('.chg02').html('<span>ᆞAn event to introduce various Korean companies to investors in the Middle East<span/><span>ᆞSession of participating companies by category</span>')
   }else if($('.tabBtnBox .tab03').hasClass('active') === true){
     $('.mediaBox').html('<img src="../image/program_media03.png" alt="" class="media01">')
     $('.chg01').html('K-CULTURE')
     $('.chg01').css('color','#C6268F')
     $('.chg01 + .horLine').css('background-color','#C6268F')
-    $('.chg02').html('<span>ᆞ2022 DUBAI K-POP Festival  Coca-Cola Arena, Dubai<span/><span>ᆞ공연을 NFT화</span><span>ᆞ해당 NFT를 VAEX에서 거래</span>')
+    $('.chg02').html('<span>ᆞ2022 DUBAI K-POP Festival Coca-Cola Arena, Dubai<span/><span>ᆞMake a performance NFT<span/><span>ᆞTrade that NFT on VAEX</span>')
   }else if($('.tabBtnBox .tab04').hasClass('active') === true){
     $('.mediaBox').html('<img src="../image/program_media04.png" alt="" class="media01">')
     $('.chg01').html('INVESTMENT')
     $('.chg01').css('color','#2863E3')
     $('.chg01 + .horLine').css('background-color','#2863E3')
-    $('.chg02').html('<span>ᆞ참여 기업과 중동 투자 Fund와 투자 연결 기회 제공</span>')
+    $('.chg02').html('<span>ᆞInvestment connection between participating companies and Middle East investment funds</span>')
   }
 })
 if($('.tabBtnBox .tab01').hasClass('active') === true){
@@ -222,11 +222,11 @@ function getGrade(){
   // 필수 input값 작성 확인
   $(function(){
     $(".gform01").submit(function(event){
-      alert('기업참여신청이 완료되었습니다.')
+      alert('The enterprise participation application has been completed.')
       return true;
     });
     $(".gform02").submit(function(event){
-      alert('NFT ART TOWER 참여 신청이 완료되었습니다.')
+      alert('NFT ART TOWER participation application has been completed.')
       return true;
     });
   });
@@ -234,49 +234,49 @@ function getGrade(){
 
 function event_click01() {
   if(document.getElementById("company").value==''){
-    alert("회사명을 입력해주십시오.");
+    alert("Type the name of the company.");
     return false;
   }
   if(document.getElementById("companyUrl").value==''){
-    alert("회사URL을 입력해주십시오.");
+    alert("Type the name of the company URL.");
     return false;
   }
   if(document.getElementById("managerName").value==''){
-    alert("담당자 성명을 입력해주십시오.");
+    alert("Type the contact name.");
     return false;
   }
   if(document.getElementById("position").value==''){
-    alert("소속과 직책을 입력해주십시오.");
+    alert("Type the Affiliation and Position.");
     return false;
   }
   if(document.getElementById("contactNum").value==''){
-    alert("담당자 연락처를 입력해주십시오.");
+    alert("Type the contact phone number.");
     return false;
   }
   if(document.getElementById("contactEmail").value==''){
-    alert("담당자 E-Mail을 입력해주십시오.");
+    alert("Type the contact e-mail.");
     return false;
   }
   if(!document.getElementById("privacy").checked){
-    alert("개인정보 수집 및 이용에 대한 동의가 필요합니다.");
+    alert("Consent is required for collecting and using personal information.");
     return false;
   }
 }
 function event_click02() {
   if(document.getElementById("nameNAT").value==''){
-    alert("성명을 입력해주십시오.");
+    alert("Type the contact name.");
     return false;
   }
   if(document.getElementById("contactNumNAT").value==''){
-    alert("연락처를 입력해주십시오.");
+    alert("Type the contact phone number.");
     return false;
   }
   if(document.getElementById("emailNAT").value==''){
-    alert("E-Mail을 입력해주십시오.");
+    alert("Type the contact e-mail.");
     return false;
   }
   if(!document.getElementById("privacyNAT").checked){
-    alert("개인정보 수집 및 이용에 대한 동의가 필요합니다.");
+    alert("Consent is required for collecting and using personal information.");
     return false;
   }
 }
