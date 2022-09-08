@@ -168,7 +168,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section02 .contentsBox .rightBox .item{margin-bottom: 6.61vw ;}
 #participation .section02 .contentsBox .rightBox .p3{font-size: 1.04vw;line-height: 1.51vw;}
 #participation .section02 .contentsBox .rightBox .p3 span{font-size: 1.46vw;line-height: 2.14vw;margin-right: 0.94vw;}
-#participation .section02 .contentsBox .rightBox .p4{width: 34.5vw;font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;margin-top: 1.04vw;}
+#participation .section02 .contentsBox .rightBox .p4{width: 100%;font-weight: 350;font-size: 0.94vw;line-height: 1.93vw;margin-top: 1.04vw;}
 #participation .section02 .contentsBox .rightBox .item:nth-child(1) .p4:nth-child(2){text-indent: -15px; padding-left: 15px; }
 #participation .section02 .contentsBox .rightBox .p4 + .p4 { margin-top: 0;}
 
@@ -452,6 +452,7 @@ section::after {display: none;}
 #venue .section03 .p0::after {display: none}
 #venue .section03 .mediaBox {width: 87.50vw;margin-top: 3.96vw; margin-left: -4.17vw;}
 #venue .section03 .mediaBox img{width: 100%;}
+#venue .section04 .p0::after {display: none;}
 #venue .section04 .mediaBox {width: 87.50vw; flex-direction: column; margin-top: 5.21vw; margin-left: -4.17vw;}
 #venue .section04::after{ display: none;}
 #venue .section04 .mediaBox img{ margin-left: 0;}
@@ -478,7 +479,7 @@ section::after {display: none;}
 #participation .section02 .contentsBox .rightBox .p3{font-size: 3.75vw;line-height: 5.42vw;}
 #participation .section02 .contentsBox .rightBox .p3 span{display: block; font-size: 4.58vw;line-height: 6.67vw;margin-right: 0.94vw;}
 #participation .section02 .contentsBox .rightBox .p4{font-size: 3.2vw;line-height:6.67vw;margin-top:5.83vw;}
-#participation .section02 .contentsBox .rightBox .mn{display: block;margin-left: 2.08vw;margin-bottom: -6.25vw;}
+#participation .section02 .contentsBox .rightBox .mn{display: block;margin-left: 2.08vw;margin-bottom:1vw;}
 
 #participation .blackLine {display: none;}
 #participation .bL01 {display: none;}
