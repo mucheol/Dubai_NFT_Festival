@@ -145,11 +145,12 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #venue .section01 .mediaBox {margin-top: 1.46vw;}
 #venue .section02 .mediaBox {margin-top: 1.46vw;}
 #venue .section02 .mediaBox img{width: 100%;}
+#venue .section03::after {display: none;}
 #venue .section03 .mediaBox {display: flex;justify-content: center;align-items: center;margin-top: 3.28vw;}
 #venue .section03 .mediaBox img{width: 57.29vw;}
 #venue .section04 .mediaBox {display: flex;justify-content: center;align-items: center;margin-top: 2.60vw;}
 #venue .section04::after{ display: none;}
-#venue .section04 .mediaBox img{margin-left: 5.31vw;}
+#venue .section04 .mediaBox img{margin-left: 3vw;}
 #venue .section04 .mediaBox img:nth-child(1){width: 31.82vw;}
 #venue .section04 .mediaBox img:nth-child(2){width: 37.55vw;}
 
