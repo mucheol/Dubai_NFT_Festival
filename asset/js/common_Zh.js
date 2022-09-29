@@ -82,11 +82,11 @@ function selectGrade() {
 		return;
 	}
 
-  const dc01 = $('.dc01');  const dc02 = $('.dc02');  const dc03 = $('.dc03');  const dc04 = $('.dc04');  const dc05 = $('.dc05');  const dc06 = $('.dc06');  const dc07 = $('.dc07');  const dc08 = $('.dc08');  const dc09 = $('.dc09');  const dc10 = $('.dc10');  const dc11 = $('.dc11');  const dc12 = $('.dc12');  const dc13 = $('.dc13');  const dc14 = $('.dc14');
-  var plaArr = [dc01, dc02, dc03, dc04, dc07, dc10, dc11, dc12, dc13, dc14]
-  var preArr = [dc01, dc02, dc03, dc04, dc07, dc10, dc12, dc13, dc14]
-  var golArr = [dc01, dc02, dc03, dc05, dc08, dc10, dc12, dc13, dc14]
-  var silArr = [dc01, dc02, dc06, dc09, dc10, dc12, dc13, dc14]
+  const dc01 = $('.dc01');  const dc03 = $('.dc03');  const dc04 = $('.dc04');  const dc05 = $('.dc05');  const dc06 = $('.dc06');  const dc07 = $('.dc07');  const dc08 = $('.dc08');  const dc09 = $('.dc09');  const dc10 = $('.dc10');  const dc11 = $('.dc11');  const dc12 = $('.dc12');  const dc13 = $('.dc13');  const dc14 = $('.dc14');
+  var plaArr = [dc01, dc03, dc04, dc07, dc10, dc11, dc12, dc13, dc14]
+  var preArr = [dc01, dc03, dc04, dc07, dc10, dc12, dc13, dc14]
+  var golArr = [dc01, dc03, dc05, dc08, dc10, dc12, dc13, dc14]
+  var silArr = [dc01, dc06, dc09, dc10, dc12, dc13, dc14]
   
   // $('.gradeBox p').on('click',function(){
   //   $(this).siblings('.p1').removeClass('active')
