@@ -21,14 +21,14 @@ $(function() {
   $('.gnb_menu:nth-child(4)').mouseenter(function() {
     $('.underBar').css({width:"3.1vw", left:"29.25vw"})
   })
+  // $('.gnb_menu:nth-child(5)').mouseenter(function() {
+  //   $('.underBar').css({width:"3.1vw", left:"37.68vw"})
+  // })
   $('.gnb_menu:nth-child(5)').mouseenter(function() {
-    $('.underBar').css({width:"3.1vw", left:"37.68vw"})
+    $('.underBar').css({width:"6.9vw", left:"37.68vw"})
   })
   $('.gnb_menu:nth-child(6)').mouseenter(function() {
-    $('.underBar').css({width:"6.9vw", left:"46.2vw"})
-  })
-  $('.gnb_menu:nth-child(7)').mouseenter(function() {
-    $('.underBar').css({width:"5.15vw", left:"56.52vw"})
+    $('.underBar').css({width:"5.15vw", left:"46.2vw"})
   })
   $('.gnb').mouseleave(function() {
     $('.underBar').css({width:"0"})
