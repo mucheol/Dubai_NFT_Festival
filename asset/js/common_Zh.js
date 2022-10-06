@@ -13,7 +13,7 @@ $(function() {
     $('.underBar').css({width:"2.2vw", left:"0"})
   })
   $('.gnb_menu:nth-child(2)').mouseenter(function() {
-    $('.underBar').css({width:"2.2vw", left:"8.5vw"})
+    $('.underBar').css({width:"6vw", left:"8.5vw"})
   })
   $('.gnb_menu:nth-child(3)').mouseenter(function() {
     $('.underBar').css({width:"3.1vw", left:"18.95vw"})
