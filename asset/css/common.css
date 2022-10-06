@@ -184,6 +184,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #speakers section .textBox .presentation{  margin-top: 1.46vw;}
 #speakers section .textBox .presentation .dl{  font-weight: 500;  font-size: 1.25vw;  line-height: 1.82vw;}
 #speakers section .textBox .presentation .dr{  font-size: 1.04vw;  line-height: 2.40vw;  margin-left: 5.73vw;  margin-top: 0.52vw;}
+#speakers .section02::after {display: none;}
 
 /* VENUE */
 #venue .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
