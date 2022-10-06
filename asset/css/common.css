@@ -286,7 +286,8 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #participation .section05-2 .p2 {font-weight: 500;font-size: 1.15vw;line-height: 1.72vw;}
 #participation .section05-2 .p3 {font-size: 0.94vw;line-height: 1.72;margin-top: 0.99vw ;}
 
-#participation .section06 .title {font-size: 3.13vw;line-height: 4.53vw;}
+#participation .section06::after {display: none;}
+#participation .section06 .title {font-size: 3.13vw;line-height: 4.53vw; margin-top: 3.70vw ;}
 #participation .section06 .contents {margin-top: 4.53vw;padding-left: 5.42vw;}
 #participation .section06 .contents .redStar{color: #FF0000;margin-left: 0.52vw;}
 #participation .section06 .contents .flexBox{flex-wrap: wrap;}
