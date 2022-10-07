@@ -66,13 +66,13 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
 #about.wrap {padding: 4.84vw 3.13vw 0 3.13vw;}
 
-#about .section01{padding-top: 6.25vw; background-image: url("../image/about-bg01.png");background-position-y: -98px; background-size: 191.04vw  1066px;}
+.ab-bg01 {position: absolute;top: -1vw; left: 0; width: 100vw; height: 800px; z-index: -1;}
+#about .section01{padding-top: 6.25vw;}
 #about .section01 .p1 {font-size: 1.46vw ;line-height: 2.14vw ;color: #787878;} 
 #about .section01 .p2 {font-size: 2.08vw ;line-height: 2.34vw ;} 
 #about .section01 .p3 {font-size: 2.60vw ;line-height: 3.39vw ;} 
 #about .section01 .p4 {font-size: 0.94vw ;line-height: 1.35vw ;margin-top: 0.63vw ;} 
 #about .section01 .horLine {display: block;width: 3.65vw ;height: 1px;margin-top: 5.00vw ;margin-bottom: 4.64vw ;background-color: #fff;}
-#about .ab-bg01 { display: none;}
 
 #about .section02 .contents {display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.38vw;}
 #about .section02 .contents .p1 {font-size: 1.25vw ;line-height: 2.14vw;}
@@ -100,10 +100,10 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .section05 { position: relative;}
 #about .section05::after {content:none }
 #about .section05 .section05-bg{position: absolute;top: 0;left: -2.86vw ;width: 100vw;height: 100%;}
-#about .section05 .contents{display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 4.90vw;}
+#about .section05 .contents{display: flex;flex-direction: column;align-items: center;text-align: center;margin-top: 10.52vw;}
 #about .section05 .contents .flexBox {text-align: left;margin-left: 18.23vw;}
 #about .section05 .contents .flexBox .dl{width: 9.74vw;font-size: 1.15vw;line-height: 1.72vw;margin-bottom: 2.19vw;}
-#about .section05 .contents .flexBox .dr{width: 35.05vw;font-size: 1.04vw;line-height: 1.72vw;}
+#about .section05 .contents .flexBox .dr{width: 40vw;font-size: 1.04vw;line-height: 1.72vw;}
 #about .section05 .contents .flexBox .p2{font-size: 0.94vw;line-height: 1.09vw ;color: #9A9A9A;margin-top: 0.3vw;}
 #about .section05 .contents .flexBox .p3{font-size: 0.83vw;line-height: 0.98vw ;color: #737373;margin-left: 0.52vw;}
 #about .section05 .contents .flexBox .pf{display: flex;}
@@ -502,7 +502,7 @@ section::after {display: none;}
 #conference .section03 .contents {  display: none;}
 #conference .section03 .p0 + .p1 {  margin-top: 0;}
 #conference .section03 .p1 {  font-size: 3.75vw;  line-height: 4.38vw;  margin-top: 15.63vw;}
-#conference .section03 .p2{  font-size: 3.75vw;  line-height: 4.38vw;  margin-top: 3.13vw;}
+#conference .section03 .p2{  font-size: 3.75vw;  line-height: 4.38vw;  margin-top: 4vw;}
 #conference .section03 ul{  padding-left: 4.17vw;}
 #conference .section03 li{  font-size: 3.13vw;  line-height: 5.83vw;  list-style: disc;  margin-top: 2.71vw;}
 
