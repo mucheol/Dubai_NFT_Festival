@@ -65,7 +65,7 @@ section::after {position: absolute;bottom: 0;content: "";width: 84.38vw ;height:
 #about .p0 {font-size: 1.25vw ;line-height: 1.82vw ;padding-top: 4.90vw ;}
 #about.wrap {padding: 4.84vw 3.13vw 0 3.13vw;}
 
-.ab-bg01 {position: absolute;top: -1vw; left: 0; width: 100vw; height: 800px; z-index: -1;}
+.ab-bg01 {position: absolute;top: 4.84vw; left: 0; width: 100vw; height: 50.52vw; z-index: -1;}
 #about .section01{padding-top: 6.25vw;}
 #about .section01 .p1 {font-size: 1.46vw ;line-height: 2.14vw ;color: #787878;} 
 #about .section01 .p2 {font-size: 2.08vw ;line-height: 2.34vw ;} 
